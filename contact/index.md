@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-subtitle: Contact details for CAPIX
+subtitle: Contact details for Epsom Software
 navigation_weight: 2
 permalink: /contact/
 ---

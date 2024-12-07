@@ -1,22 +1,20 @@
 ---
 layout: page
 title: Services
-subtitle: CAPIX Professional Services
+subtitle: Epsom Software Professional Services
 navigation_weight: 2
 permalink: /services/
 ---
 
 ### Analysis, Consulting and Project Management
 
-CAPIX offers a complete range of Professional Services to assi​st with the​ implementation of CAPIX software. Over the past twenty years we have sucessfully completed over a hundred implementation projects for clients in eight countries.
+Epsom Software offers a complete range of Professional Services to assi​st with the​ implementation of the Peatio cryptocurrency exchange platform. Over the past twenty years we have sucessfully completed over a hundred implementation projects for clients in eight countries.
 
 Our extensive domain kn​owledge within the treasury and securities sector enables us to apply the expertise needed for even the most complex and detailed business requirements.
 
-### Software Customisation and Development of CAPIX products.
+### Software Customisation and Development of the Peatio platform.
 
-Often clients want CAPIX software customised to suit their specific requirements, either during the implementation project or over the lifetime of the system.
-
-Much of the custom software development we perform for clients is relatively simple, such as custom reports that integrate into the CAPIX packages. The CAPIX Report Manager offers extensive flexibility, but sometimes clients require new reports and we can deliver these without fuss.
+Often clients want the Peatio exchange platform software customised to suit their specific requirements, either during the implementation project or over the lifetime of the system.
 
 On occasion we undertake more extensive projects and have even have developed whole new modules on behalf of clients.
 

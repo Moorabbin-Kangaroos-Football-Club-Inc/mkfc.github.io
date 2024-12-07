@@ -29,7 +29,7 @@ github_username:  capix-net
 avatar: "/favicon.png"
 
 # Your name to show in the footer
-author: CAPIX
+author: Epsom Software
 
 # Build settings
 theme: minima
@@ -115,7 +115,7 @@ social-network-links:
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.
-rss-description: CAPIX
+rss-description: Epsom.Software
 
 # --- General options --- #
 
