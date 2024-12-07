@@ -8,9 +8,9 @@ permalink: /about/
 
 CAPIX was founded in Melbourne Australia during 1991 by a small team of financial markets technology professionals. Thirty years and over a hundred projects later, we continue our dedication to this ever-changing and intellectually challenging sector.
 
-Details of Key CAPIX Staff -> [Learn More](https://capix.net/about/staff)
+Details of Key CAPIX Staff -> [Learn More](https://epsom.software/about/staff)
 
-Our Values and What We Believe -> [Learn More](https://capix.net/about/what-we-believe)
+Our Values and What We Believe -> [Learn More](https://epsom.software/about/what-we-believe)
 ### CAPIX History and Milestones
 
 | Year   |      Details      |

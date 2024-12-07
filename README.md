@@ -1,4 +1,4 @@
-# capix.net
+# epsom.software
 
 Welcome to the CAPIX Treasury Software website https://www.capix-net
 

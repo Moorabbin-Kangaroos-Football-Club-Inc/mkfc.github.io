@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: CAPIX Software 
-email: support@capix.net
-description: CAPIX provides software solutions and services for modern treasury operations.
+title: Epsom Software 
+email: support@epsom.software
+description: Epsom Software provides software solutions and services for blockchain technology.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.capix.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.epsom.software" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: CapixTreasury
 github_username:  capix-net
 
@@ -42,7 +42,6 @@ plugins:
 
 header_pages:
   - index.md
-  - products/index.md
   - services/index.md
   - news/index.md
   - about/index.md
@@ -91,7 +90,7 @@ exclude:
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: info@capix.net
+  email: info@epsom.software
   facebook: capixsoftware
   github: capix-net
   twitter: CapixTreasury
@@ -129,7 +128,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "capix.net"
+url-pretty: "epsom.software"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50

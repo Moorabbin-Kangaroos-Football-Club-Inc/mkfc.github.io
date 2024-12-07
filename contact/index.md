@@ -12,7 +12,7 @@ permalink: /contact/
 |:----------|------------- |
 | Phone (toll-free Australia) | 1300 65 0055 |
 | Phone (International) | +613 9521 2888 |
-| Email | info@capix.net |
+| Email | info@epsom.software |
 | Office Address | Suite 3, 598 St Kilda Rd, Melbourne VIC 3004 |
 | Postal Address | P.O. Box 6052, Melbourne VIC 3004 |
 
@@ -21,7 +21,7 @@ permalink: /contact/
 
 | Media | URL Link |
 |:---------------|------------------------------------|
-| Website	| <a href="https://www.capix.net" target="_blank">https://www.capix.net</a> |
+| Website	| <a href="https://www.epsom.software" target="_blank">https://www.epsom.software</a> |
 | LinkedIn	| <a href="https://www.linkedin.com/company/capix-treasury-software" target="_blank">https://www.linkedin.com/company/capix-treasury-software</a> |
 | Facebook	| <a href="https://www.facebook.com/capixsoftware/" target="_blank">https://www.facebook.com/capixsoftware/</a> |
 | Twitter	| <a href="https://twitter.com/CapixTreasury" target="_blank">https://twitter.com/CapixTreasury</a> |
