@@ -22,6 +22,6 @@ permalink: /contact/
 | Media | URL Link |
 |:---------------|------------------------------------|
 | Website	| <a href="https://www.epsom.software" target="_blank">https://www.epsom.software</a> |
-| LinkedIn	| <a href="https://www.linkedin.com/company/capix-treasury-software" target="_blank">https://www.linkedin.com/company/capix-treasury-software</a> |
-| Facebook	| <a href="https://www.facebook.com/capixsoftware/" target="_blank">https://www.facebook.com/capixsoftware/</a> |
-| Twitter	| <a href="https://twitter.com/CapixTreasury" target="_blank">https://twitter.com/CapixTreasury</a> |
+| LinkedIn	| <a href="https://www.linkedin.com/company/epsom-software" target="_blank">https://www.linkedin.com/company/epsom-software</a> |
+| Facebook	| <a href="https://www.facebook.com/epsom.software/" target="_blank">https://www.facebook.com/epsom.software/</a> |
+| Twitter	| <a href="https://twitter.com/" target="_blank">https://twitter.com/</a> |
