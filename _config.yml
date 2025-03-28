@@ -51,7 +51,7 @@ header_pages:
   - index.md
   - history/index.md
   - news/index.md
-  - about/index.md
+#  - about/index.md
   - sponsors/index.md
   - contact/index.md
 

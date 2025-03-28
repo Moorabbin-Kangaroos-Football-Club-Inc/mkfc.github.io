@@ -5,15 +5,13 @@ title: Home
 
 # Welcome to Moorabbin Kangaroos Football Club
 
-![Moorabbin Kangaroos Logo](https://via.placeholder.com/150) *(Replace with actual logo)*
+![Moorabbin Kangaroos Logo](https://mkfc.org.au/logo.jpg) *(Replace with actual logo)*
 
 We are proud to field two teams in the **Southern Football and Netball League** competition.
 
 ## Find Us
 
-[![Google Maps Location](https://via.placeholder.com/400x200?text=Click+for+Google+Maps)](https://www.google.com/maps?q=Widdop+Crescent,+Hampton+East)
-
-[Click here for directions to our club at Widdop Cres, Hampton East](https://www.google.com/maps?q=Widdop+Crescent,+Hampton+East)
+Our home ground is at Widdop Cres, Hampton East 3188 [View on Google Maps](https://www.google.com/maps?q=Widdop+Crescent,+Hampton+East)
 
 ## Quick Links
 
@@ -33,5 +31,5 @@ We currently field two teams in the Southern Football and Netball League:
 ## Training Schedule
 
 *Tuesday & Thursday evenings*  
-*6:30pm - 8:00pm*  
-*Widdop Crescent Oval, Hampton East*
+*6:00pm - 8:00pm*  
+*Widdop Crescent Oval, Hampton East 3188*

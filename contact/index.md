@@ -7,14 +7,14 @@ title: Contact
 
 ## Committee Members
 
-- **President**: John Smith - 0400 000 000
+- **President**: Muhammad Kiki - 0400 000 000
 - **Secretary**: Sarah Johnson - 0400 000 001
 - **Treasurer**: Michael Brown - 0400 000 002
 - **Football Manager**: David Wilson - 0400 000 003
 
 ## General Enquiries
 
-Email: info@moorabbinroos.com *(example - replace with actual email)*
+Email: info@mkfc.org.au
 
 ## Social Media
 
