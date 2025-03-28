@@ -5,9 +5,9 @@ title: Home
 
 # Welcome to Moorabbin Kangaroos Football Club
 
-![Moorabbin Kangaroos Logo](https://mkfc.org.au/logo.jpg) *(Replace with actual logo)*
+![Moorabbin Kangaroos Logo](https://mkfc.org.au/logo.jpg)
 
-We are proud to field two teams in the **Southern Football and Netball League** competition.
+We are proud to field two Division 4 teams in the **Southern Football and Netball League** competition.
 
 ## Find Us
 
