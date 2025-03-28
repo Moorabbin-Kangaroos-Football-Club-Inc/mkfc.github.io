@@ -18,21 +18,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Epsom Software 
-email: support@epsom.software
-description: Epsom Software provides software solutions and services for blockchain technology.
+
+
+
+
+
+title: Moorabbin Kangaroos Football Club
+email: media@mkfc.org.au
+description: Official site of the Moorabbin Kangaroos FC
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://www.epsom.software" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: CapixTreasury
-github_username:  capix-net
+url: "https://www.mkfc.org.au" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: CapixTreasury
+# github_username:  capix-net
 
 avatar: "/favicon.png"
 
 # Your name to show in the footer
-author: Epsom Software
+author: Moorabbin Kangaroos
 
 # Build settings
 theme: minima
+#theme: jekyll-theme-minimal
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -42,10 +49,10 @@ plugins:
 
 header_pages:
   - index.md
-  - services/index.md
+  - history/index.md
   - news/index.md
   - about/index.md
-  - support/index.md
+  - sponsors/index.md
   - contact/index.md
 
 show_excerpts: true

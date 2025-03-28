@@ -1,27 +1,32 @@
 ---
-layout: page
+layout: default
 title: Contact
-subtitle: Contact details for Epsom Software
-navigation_weight: 2
-permalink: /contact/
 ---
 
-### Contact Us
+# Contact Moorabbin Kangaroos FC
 
-| Contact | Details |
-|:----------|------------- |
-| Phone (toll-free Australia) | 1300 65 0055 |
-| Phone (International) | +613 9521 2888 |
-| Email | info@epsom.software |
-| Office Address | Suite 3, 598 St Kilda Rd, Melbourne VIC 3004 |
-| Postal Address | P.O. Box 6052, Melbourne VIC 3004 |
+## Committee Members
 
+- **President**: John Smith - 0400 000 000
+- **Secretary**: Sarah Johnson - 0400 000 001
+- **Treasurer**: Michael Brown - 0400 000 002
+- **Football Manager**: David Wilson - 0400 000 003
 
-### Social Media
+## General Enquiries
 
-| Media | URL Link |
-|:---------------|------------------------------------|
-| Website	| <a href="https://www.epsom.software" target="_blank">https://www.epsom.software</a> |
-| LinkedIn	| <a href="https://www.linkedin.com/company/epsom-software" target="_blank">https://www.linkedin.com/company/epsom-software</a> |
-| Facebook	| <a href="https://www.facebook.com/epsom.software/" target="_blank">https://www.facebook.com/epsom.software/</a> |
-| Twitter	| <a href="https://twitter.com/" target="_blank">https://twitter.com/</a> |
+Email: info@moorabbinroos.com *(example - replace with actual email)*
+
+## Social Media
+
+- [Facebook](https://facebook.com/moorabbinroos)
+- [Instagram](https://instagram.com/moorabbinroos)
+- [Twitter](https://twitter.com/moorabbinroos)
+
+## Ground Location
+
+Widdop Crescent Oval  
+Widdop Crescent  
+Hampton East VIC 3188
+
+[View on Google Maps](https://www.google.com/maps?q=Widdop+Crescent,+Hampton+East)
+
