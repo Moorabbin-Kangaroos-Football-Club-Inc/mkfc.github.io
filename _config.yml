@@ -18,11 +18,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
-
-
-
-
 title: Moorabbin Kangaroos Football Club
 email: media@mkfc.org.au
 description: Official site of the Moorabbin Kangaroos FC
