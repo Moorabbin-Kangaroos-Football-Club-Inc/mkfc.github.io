@@ -11,7 +11,7 @@ We are proud to field two Division 4 teams in the **Southern Football and Netbal
 
 ## Find Us
 
-Our home ground is at Widdop Cres, Hampton East 3188 [View on Google Maps](https://www.google.com/maps?q=Widdop+Crescent,+Hampton+East)
+Our home ground is at Widdop Cres, Hampton East 3188 [View on Google Maps](https://maps.app.goo.gl/EqwponkRzfhLmvSZ6)
 
 ## Quick Links
 
