@@ -2,9 +2,10 @@
 ---
 
 // Override Minima Sass variables before import
-$brand-color:       #1A3B8E;
-$brand-color-light: #4a6bb8;
-$brand-color-dark:  #0d1f4a;
+$brand-color:       #01285e;
+$brand-color-light: #1a5a8e;
+$brand-color-dark:  #001840;
+$base-font-family:  "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 @import "minima";
 
@@ -12,10 +13,11 @@ $brand-color-dark:  #0d1f4a;
 // MKFC Club Branding
 // ========================================
 
-$mkfc-blue:       #1A3B8E;
+$mkfc-blue:       #01285e;
 $mkfc-gold:       #FFCD00;
 $mkfc-light-blue: #C4D1E5;
 $mkfc-gold-dark:  #e6b800;
+$heading-font:    "DIN Condensed", "Helvetica Neue Condensed", "HelveticaNeue-CondensedBold", "Arial Narrow", sans-serif;
 
 body {
   overflow-x: hidden;
@@ -97,6 +99,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   color: $mkfc-blue;
+  font-family: $heading-font;
 }
 
 // ----------------------------------------

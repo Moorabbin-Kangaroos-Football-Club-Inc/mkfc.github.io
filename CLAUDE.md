@@ -50,4 +50,4 @@ Static assets (logos, favicons, images) live at the repo root and in `assets/`. 
 
 ## Branding
 
-`branding.md` contains North Melbourne Kangaroos (AFL) brand guidelines used as reference for the club's visual identity — colours (Royal Blue #1A3B8E, White, Light Blue #C4D1E5) and typography (DIN / Helvetica Neue family).
+`branding.md` contains North Melbourne Kangaroos (AFL) brand guidelines used as reference for the club's visual identity — colours (Deep Navy Blue #01285e, White, Light Blue #C4D1E5) and typography (DIN / Helvetica Neue family).

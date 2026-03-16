@@ -56,11 +56,11 @@ The Moorabbin Kangaroos Football Club was established in **1965** by a group of 
 
 ## Our Club Colours
 
-The Moorabbin Kangaroos proudly wear **Royal Blue**, **White**, and **Gold** — inspired by the AFL's North Melbourne Kangaroos.
+The Moorabbin Kangaroos proudly wear **Deep Navy Blue**, **White**, and **Light Blue** — inspired by the AFL's North Melbourne Kangaroos.
 
-- **Royal Blue** (Primary) — #1A3B8E
+- **Deep Navy Blue** (Primary) — #01285e
 - **White** (Primary)
-- **Gold** (Accent) — #FFCD00
+- **Light Blue** (Secondary) — #C4D1E5
 
 ---
 
@@ -140,9 +140,9 @@ All home games are played at **Moorabbin West Reserve** (Widdop Crescent Oval, H
 
 | Category | Fee |
 |---|---|
-| Senior Player Registration | $ TBC |
-| Reserves Player Registration | $ TBC |
-| Social Membership | $ TBC |
+| Senior Player Registration | $400 |
+| Reserves Player Registration | $400 |
+| Social Membership | $50 |
 
 Registration fees cover your SFNL player registration, insurance, and club membership for the season.
 
