@@ -152,13 +152,19 @@ Registration fees cover your SFNL player registration, insurance, and club membe
 
 ## Committee Members
 
-| Role | Name | Phone |
-|---|---|---|
-| President | Muhammad Kiki | 0419 904 242 |
-| Vice President | Simon Griffiths | 0408 585 576 |
-| Secretary | Margaret Torpy | 0407 442 436 |
-| Treasurer | Noel Stewart | 0404 481 078 |
-| Team Manager | Mick McCombe | 0400 000 003 |
+| Role | Name | Phone | Email |
+|---|---|---|---|
+| President | Simon Griffiths | 0408 585 576 | ssgriffiths3@hotmail.com |
+| President | Peter Cooney | 0419 337 875 | peter@cooney.id |
+| Secretary | Margaret Torpy | 0407 442 436 | margarettorpy@bigpond.com |
+| Assistant Secretary | Lisa Griffiths | 0433 658 443 | lisa.griffths65@icloud.com |
+| Treasurer | Noel Stewart | 0404 481 078 | noeljstewart@bigpond.com |
+| Operations Manager | Muhammad Kiki | 0419 904 242 | presidentmkfc@gmail.com |
+| General Committee | Geoff Burke | 0408 551 350 | gjburke1@optusnet.com |
+| General Committee | Lachie Pearce | 0488 256 999 | lachie2213@hotmail.com |
+| General Committee | Dylan Cohen | 0433 419 551 | dylanvictorycohen@gmail.com |
+| General Committee | Matt Bergowicz | 0478 121 654 | mattbergowicz@outlook.com |
+| General Committee | Zac Little | 0451 674 897 | zacjlittle@gmail.com |
 
 ---
 

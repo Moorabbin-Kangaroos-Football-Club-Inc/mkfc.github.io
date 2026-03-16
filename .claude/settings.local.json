@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:www.nmfc.com.au)",
-      "Bash(grep:*)"
+      "Bash(grep:*)",
+      "Bash(where wkhtmltopdf:*)",
+      "Bash(where chrome:*)",
+      "Read(//c/Program Files/Google/Chrome/Application/**)",
+      "Read(//c/Program Files \\(x86\\)/Microsoft/Edge/Application/**)",
+      "Read(//c/Program Files/Microsoft/Edge/Application/**)",
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --print-to-pdf=\"C:/storage/git/mkfc.github.io/welcome/welcome-pack.pdf\" --no-margins \"file:///C:/storage/git/mkfc.github.io/welcome/welcome-pack.html\" 2>&1)"
     ]
   }
 }

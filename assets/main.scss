@@ -29,7 +29,7 @@ body {
 
 .site-header {
   background-color: $mkfc-blue;
-  border-top: 4px solid $mkfc-gold;
+  border-top: 4px solid $mkfc-light-blue;
   border-bottom: none;
 }
 
@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
   h3 {
     margin-top: 0;
     padding-bottom: 0.5rem;
-    border-bottom: 2px solid $mkfc-gold;
+    border-bottom: 2px solid $mkfc-light-blue;
   }
 
   p {
@@ -272,7 +272,7 @@ table {
 .site-footer {
   background-color: $mkfc-blue;
   color: $mkfc-light-blue;
-  border-top: 3px solid $mkfc-gold;
+  border-top: 3px solid $mkfc-light-blue;
 
   .footer-heading {
     color: #fff;
