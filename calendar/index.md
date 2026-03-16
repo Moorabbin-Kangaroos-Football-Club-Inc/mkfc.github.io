@@ -51,4 +51,4 @@ Full results and ladders are available on the [SportsTG / GameDay website](https
 
 ## Key Dates
 
-Check our [Facebook page](https://facebook.com/moorabbinroos) for upcoming social events, fundraisers, and club functions.
+Check our [Facebook page](https://www.facebook.com/MoorabbinKangaroos) for upcoming social events, fundraisers, and club functions.

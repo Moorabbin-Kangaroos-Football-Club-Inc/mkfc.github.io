@@ -19,7 +19,7 @@ Email: info@mkfc.org.au
 
 ## Social Media
 
-- [Facebook](https://facebook.com/moorabbinroos)
+- [Facebook](https://www.facebook.com/MoorabbinKangaroos)
 - [Instagram](https://instagram.com/moorabbinroos)
 - [Twitter](https://twitter.com/moorabbinroos)
 
@@ -29,5 +29,5 @@ Widdop Crescent Oval
 41 Widdop Crescent  
 Hampton East VIC 3188
 
-[View on Google Maps](https://www.google.com/maps?q=Widdop+Crescent,+Hampton+East)
+[View on Google Maps](https://maps.app.goo.gl/EqwponkRzfhLmvSZ6)
 

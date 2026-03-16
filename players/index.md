@@ -9,7 +9,7 @@ The Moorabbin Kangaroos field two teams in the **SFNL Division 4** competition e
 
 ## Senior Team
 
-Player lists are updated at the start of each season. For current team sheets, check our [Facebook page](https://facebook.com/moorabbinroos).
+Player lists are updated at the start of each season. For current team sheets, check our [Facebook page](https://www.facebook.com/MoorabbinKangaroos).
 
 ## Reserves Team
 

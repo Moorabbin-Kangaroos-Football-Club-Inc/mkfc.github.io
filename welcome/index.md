@@ -179,7 +179,7 @@ Hampton East VIC 3188
 
 Follow us to stay up to date with news, results, and events:
 
-- **Facebook:** [facebook.com/moorabbinroos](https://facebook.com/moorabbinroos)
+- **Facebook:** [facebook.com/MoorabbinKangaroos](https://www.facebook.com/MoorabbinKangaroos)
 - **Instagram:** [instagram.com/moorabbinroos](https://instagram.com/moorabbinroos)
 - **Twitter:** [twitter.com/moorabbinroos](https://twitter.com/moorabbinroos)
 
