@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contact
+description: "Contact the Moorabbin Kangaroos FC — committee members, ground location, and social media links."
 ---
 
 # Contact Moorabbin Kangaroos Football Club

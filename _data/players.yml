@@ -1,0 +1,33 @@
+seniors:
+  - number: 1
+    name: "TBC"
+    position: "-"
+  - number: 2
+    name: "TBC"
+    position: "-"
+  - number: 3
+    name: "TBC"
+    position: "-"
+  - number: 4
+    name: "TBC"
+    position: "-"
+  - number: 5
+    name: "TBC"
+    position: "-"
+
+reserves:
+  - number: 1
+    name: "TBC"
+    position: "-"
+  - number: 2
+    name: "TBC"
+    position: "-"
+  - number: 3
+    name: "TBC"
+    position: "-"
+  - number: 4
+    name: "TBC"
+    position: "-"
+  - number: 5
+    name: "TBC"
+    position: "-"

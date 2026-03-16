@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Players
+description: "Moorabbin Kangaroos player roster for the 2026 SFNL Division 4 season. Senior and Reserves teams."
 ---
 
 # Players
@@ -9,11 +10,19 @@ The Moorabbin Kangaroos field two teams in the **SFNL Division 4** competition e
 
 ## Senior Team
 
-Player lists are updated at the start of each season. For current team sheets, check our [Facebook page](https://www.facebook.com/MoorabbinKangaroos).
+| # | Player | Position |
+|---|--------|----------|
+{% for player in site.data.players.seniors %}| {{ player.number }} | {{ player.name }} | {{ player.position }} |
+{% endfor %}
 
 ## Reserves Team
 
-Our Reserves side provides a pathway for developing players and returning veterans alike.
+| # | Player | Position |
+|---|--------|----------|
+{% for player in site.data.players.reserves %}| {{ player.number }} | {{ player.name }} | {{ player.position }} |
+{% endfor %}
+
+*Roster last updated: March 2026. For match-day team sheets, see our [Facebook page](https://www.facebook.com/MoorabbinKangaroos).*
 
 ## Interested in Playing?
 

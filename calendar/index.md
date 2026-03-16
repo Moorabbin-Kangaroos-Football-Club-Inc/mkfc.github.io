@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Calendar
+description: "Season 2026 fixtures, training schedule, and key dates for the Moorabbin Kangaroos Football Club."
 ---
 
 # Season 2026 Calendar

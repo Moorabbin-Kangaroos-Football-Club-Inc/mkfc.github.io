@@ -63,6 +63,34 @@ body {
   fill: rgba(255, 255, 255, 0.9);
 }
 
+// Mobile nav dropdown
+@media screen and (max-width: 599px) {
+  .site-nav {
+    .trigger {
+      background-color: $mkfc-blue;
+      border: 1px solid darken($mkfc-blue, 10%);
+      border-radius: 4px;
+      padding: 0.5rem 0;
+    }
+
+    .page-link {
+      color: #fff;
+      padding: 8px 16px;
+      margin: 0;
+      display: block;
+
+      &:hover {
+        color: $mkfc-gold;
+        background-color: darken($mkfc-blue, 8%);
+      }
+    }
+
+    label[for="nav-trigger"] {
+      border-color: rgba(255, 255, 255, 0.3);
+    }
+  }
+}
+
 // ----------------------------------------
 // Headings
 // ----------------------------------------
@@ -258,6 +286,53 @@ table {
   .p-name {
     color: #fff;
   }
+}
+
+// ----------------------------------------
+// Photo gallery
+// ----------------------------------------
+
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.gallery-item {
+  margin: 0;
+  overflow: hidden;
+  border-radius: 6px;
+  border: 1px solid $mkfc-light-blue;
+
+  img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+
+  figcaption {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+    color: #555;
+    background: #f8f9fa;
+  }
+}
+
+.gallery-placeholder {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #f8f9fa;
+  border: 1px dashed $mkfc-light-blue;
+  border-radius: 6px;
+  color: #666;
 }
 
 // ----------------------------------------

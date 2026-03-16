@@ -25,6 +25,7 @@ header_pages:
   - about/index.md
   - news/index.md
   - players/index.md
+  - gallery/index.md
   - sponsors/index.md
   - calendar/index.md
   - contact/index.md

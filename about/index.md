@@ -2,6 +2,7 @@
 layout: default
 title: About
 permalink: /about/
+description: "History of the Moorabbin Kangaroos FC, founded 1965. Premierships, milestones, and club documents."
 ---
 
 # About Moorabbin Kangaroos Football Club

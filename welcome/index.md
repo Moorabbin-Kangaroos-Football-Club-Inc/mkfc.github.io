@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Welcome Pack
+description: "New player welcome pack for the Moorabbin Kangaroos FC — training info, match day guide, and registration."
 ---
 
 {: .cover-page}

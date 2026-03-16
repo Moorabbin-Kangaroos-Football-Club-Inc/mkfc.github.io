@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Sponsors
+description: "Sponsors and community partners of the Moorabbin Kangaroos FC. Become a sponsor today."
 ---
 
 # Our Valued Sponsors

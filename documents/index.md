@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Documents
+description: "Moorabbin Kangaroos FC official documents — constitution, strategic plan, and registration forms."
 ---
 
 # Club Documents

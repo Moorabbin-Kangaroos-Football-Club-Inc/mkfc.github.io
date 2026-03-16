@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+description: "Moorabbin Kangaroos Football Club — SFNL Division 4, Hampton East. Training, fixtures, and how to join."
 ---
 
 <div class="hero">
