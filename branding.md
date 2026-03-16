@@ -1,9 +1,9 @@
 The North Melbourne Kangaroos (AFL club) use the following official branding elements:
 
 **1. Primary Color Palette:**
-*   **Royal Blue (Primary):** PMS 647 C / Hex #003B9B / RGB (0, 59, 155)
-*   **White (Primary):** Used prominently with the royal blue. Hex #FFFFFF / RGB (255, 255, 255)
-*   **Gold/Yellow (Secondary/Heritage):** PMS 116 C (or similar) / Hex #FFCD00 / RGB (255, 205, 0). This is a key accent, especially on the heritage/clash guernsey and in some branding elements reflecting the club's "Shinboner" history.
+*   **Royal Blue (Primary):** Pantone 7687 C / Hex #1A3B8E / RGB (26, 59, 142) / CMYK (82, 59, 0, 44)
+*   **White (Primary):** Pantone 7436 C / Hex #FFFFFF / RGB (255, 255, 255) / CMYK (0, 0, 0, 0)
+*   **Light Blue (Secondary):** Pantone 643 C / Hex #C4D1E5 / RGB (196, 209, 229) / CMYK (14, 9, 0, 10)
 
 **2. Fonts/Typography:**
 *   **Logo Font:** The primary "NORTH MELBOURNE" wordmark in the logo uses a **custom, proprietary typeface** designed specifically for the club. It's a bold, condensed sans-serif with distinctive angular cuts (especially on the 'R's and 'N's) and a slightly aggressive feel.
@@ -12,8 +12,7 @@ The North Melbourne Kangaroos (AFL club) use the following official branding ele
 
 **In summary:**
 
-*   **Colors:** Dominant **Royal Blue (PMS 647 / #003B9B)** and **White**, accented by **Gold (#FFCD00)**.
+*   **Colors:** Dominant **Royal Blue (Pantone 7687 C / #1A3B8E)**, **White**, and **Light Blue (#C4D1E5)**.
 *   **Logo Font:** Unique **custom condensed sans-serif**.
 *   **Body/Text Font:** Typically **DIN** or **Helvetica Neue**.
 *   **Headline Font:** Typically a **bold condensed version** of DIN or Helvetica Neue.
-
