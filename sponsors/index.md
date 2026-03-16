@@ -9,13 +9,9 @@ The Moorabbin Kangaroos FC gratefully acknowledges the support of our sponsors:
 
 ## Major Sponsors
 
-1. **Local Business Pty Ltd**  
-   ![Sponsor Logo](https://via.placeholder.com/200x100)  
-   Supporting us since 2015
+1. **Local Business Pty Ltd** — Supporting us since 2015
 
-2. **Hampton East Automotive**  
-   ![Sponsor Logo](https://via.placeholder.com/200x100)  
-   Official vehicle partner
+2. **Hampton East Automotive** — Official vehicle partner
 
 ## Community Partners
 

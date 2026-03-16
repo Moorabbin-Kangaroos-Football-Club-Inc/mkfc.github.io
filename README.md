@@ -1,5 +1,5 @@
-# epsom.software
+# Moorabbin Kangaroos Football Club
 
-Welcome to the Epsom Software website https://www.epsom.software
+Official website for the Moorabbin Kangaroos FC — https://www.mkfc.org.au
 
-We are currently implementing a migration and upgrade to a new web platform, please check back soon.
+Hosted on GitHub Pages using Jekyll with the Minima theme.

@@ -1,36 +1,21 @@
 ---
-layout: page
+layout: default
 title: About
-subtitle: About Epsom Software
-navigation_weight: 2
 permalink: /about/
 ---
 
-Epsom Software was founded in Melbourne Australia during 1991 by a small team of technology professionals. Thirty years and over a hundred projects later, we continue our dedication to this ever-changing and intellectually challenging sector.
+# About Moorabbin Kangaroos Football Club
 
-Details of Key Epsom Software Staff -> [Learn More](https://epsom.software/about/staff)
+The Moorabbin Kangaroos Football Club was established in 1965 and competes in the Southern Football and Netball League (SFNL).
 
-Our Values and What We Believe -> [Learn More](https://epsom.software/about/what-we-believe)
-### Epsom Software History and Milestones
+We are a community-focused club based at Widdop Crescent Oval in Hampton East, fielding Senior and Reserves teams in Division 4.
 
-| Year   |      Details      |
-|----------|-------------|
-| 1991 | Epsom Software commences business, specialising in financial markets software consulting and development |
-| 1991 | First client is ANZ Bank, where we developed a software application for FX Options Risk Management |
-| 1992 | Market demand and supply modelling software project for the Hong Kong Energy regulator |
-| 1993 | Short Term Money Market system (Unix-based) for JB Were Capital Markets |
-| 1994 | ASX market real-time data feed and quantitative analysis tools for Prudential-Bache Securities |
-| 1995 | SFE Futures trading back office accounting and administration system for Prudential-Bache Securities |
-| 1996 | SFE Futures trading back office accounting and administration system for P Maloney Futures Broker |
-| 1997 | Project for ANZ Bank Interest Rate Swaps Accounting and Risk Management |
-| 1998 | Major project for Asia Development Bank, developing software for Bank Balance Sheet stress testing during the Asia financial crash |
-| 2000 | Ford embedded network project Asia-Pacific region |
-| 2001 | Internet-based Bond Trading system for Commonwealth Bank |
-| 2002 | First New Zealand projects with five new clients |
-| 2008 | Open Banking integration projects Epsom Software |
-| 2011 | Expansion in Singapore and Asia-Pacific Region |
-| 2014 | First project in Africa |
-| 2015 | Epsom Software becomes a Microsoft Development Partner |
-| 2018 | Epsom Software first Blockchain support project|
-| 2020 | First Peatio exchange consulting client in Canada |
-| 2023 | Project for implementing AI Cash Forecasting |
+## Club Documents
+
+- [Constitution](/doc/Constitution.pdf)
+- [Strategic Plan](/doc/Moorabin-Strategic-Plan-PDF.pdf)
+- [Welcome Sheet](/doc/Moorabbin-Kangaroos-Welcome-Sheet.pdf)
+
+## Contact
+
+For general enquiries email [info@mkfc.org.au](mailto:info@mkfc.org.au) or visit our [Contact page](/contact).

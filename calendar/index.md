@@ -1,33 +1,20 @@
 ---
 layout: default
-title: Contact
+title: Calendar
 ---
 
-# Contact Moorabbin Kangaroos Football Club
+# Season Calendar
 
-## Committee Members
+## Training
 
-- **President**: Muhammad Kiki - 0419 904 242
-- **Vice President**: Simon Griffiths - 0408 585 576
-- **Secretary**: Margaret Torpy - 0407 442 436
-- **Treasurer**: Noel Stewart - 0404 481 078
-- **Team Manager**: Mick McCombe - 0400 000 003
+- **Tuesday**: 6:00pm - 8:00pm
+- **Thursday**: 6:00pm - 8:00pm
+- **Location**: Widdop Crescent Oval, Hampton East 3188
 
-## General Enquiries
+## Fixtures & Results
 
-Email: info@mkfc.org.au
+Fixtures and results for the current SFNL season are available on the [SportsTG / GameDay website](https://websites.mygameday.app/assoc_page.cgi?assoc=24578).
 
-## Social Media
+## Key Dates
 
-- [Facebook](https://facebook.com/moorabbinroos)
-- [Instagram](https://instagram.com/moorabbinroos)
-- [Twitter](https://twitter.com/moorabbinroos)
-
-## Ground Location
-
-Widdop Crescent Oval  
-41 Widdop Crescent  
-Hampton East VIC 3188
-
-[View on Google Maps](https://www.google.com/maps?q=Widdop+Crescent,+Hampton+East)
-
+Check our [Facebook page](https://facebook.com/moorabbinroos) for upcoming social events, fundraisers, and club functions.
