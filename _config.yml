@@ -22,10 +22,12 @@ plugins:
 
 header_pages:
   - index.md
+  - about/index.md
   - history/index.md
   - news/index.md
   - players/index.md
   - sponsors/index.md
+  - documents/index.md
   - calendar/index.md
   - contact/index.md
 

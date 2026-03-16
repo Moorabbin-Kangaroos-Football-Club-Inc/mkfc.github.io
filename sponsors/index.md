@@ -25,5 +25,5 @@ Interested in supporting our club? Contact our sponsorship coordinator:
 
 **Sponsorship Manager**: Emma Davis  
 Phone: 0400 000 004  
-Email: sponsors@moorabbinroos.com
+Email: sponsors@mkfc.org.au
 

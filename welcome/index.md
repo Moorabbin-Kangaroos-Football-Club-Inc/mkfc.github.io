@@ -234,7 +234,7 @@ The Moorabbin Kangaroos FC gratefully acknowledges the support of our sponsors:
 - Hampton East Medical Centre
 - Widdop Crescent Sports Club
 
-Interested in sponsoring the club? Contact **Emma Davis** at [sponsors@moorabbinroos.com](mailto:sponsors@moorabbinroos.com) or call 0400 000 004.
+Interested in sponsoring the club? Contact **Emma Davis** at [sponsors@mkfc.org.au](mailto:sponsors@mkfc.org.au) or call 0400 000 004.
 
 ---
 

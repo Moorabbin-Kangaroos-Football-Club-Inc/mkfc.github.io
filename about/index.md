@@ -12,9 +12,9 @@ We are a community-focused club based at Widdop Crescent Oval in Hampton East, f
 
 ## Club Documents
 
-- [Constitution](/doc/Constitution.pdf)
-- [Strategic Plan](/doc/Moorabin-Strategic-Plan-PDF.pdf)
-- [Welcome Sheet](/doc/Moorabbin-Kangaroos-Welcome-Sheet.pdf)
+- [Constitution](/documents/Constitution.pdf)
+- [Strategic Plan](/documents/Moorabin-Strategic-Plan-PDF.pdf)
+- [Welcome Sheet](/documents/Moorabbin-Kangaroos-Welcome-Sheet.pdf)
 
 ## Contact
 
