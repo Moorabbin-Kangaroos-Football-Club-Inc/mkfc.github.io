@@ -1,0 +1,284 @@
+---
+---
+
+// Override Minima Sass variables before import
+$brand-color:       #1A3B8E;
+$brand-color-light: #4a6bb8;
+$brand-color-dark:  #0d1f4a;
+
+@import "minima";
+
+// ========================================
+// MKFC Club Branding
+// ========================================
+
+$mkfc-blue:       #1A3B8E;
+$mkfc-gold:       #FFCD00;
+$mkfc-light-blue: #C4D1E5;
+$mkfc-gold-dark:  #e6b800;
+
+body {
+  overflow-x: hidden;
+}
+
+// ----------------------------------------
+// Header
+// ----------------------------------------
+
+.site-header {
+  background-color: $mkfc-blue;
+  border-top: 4px solid $mkfc-gold;
+  border-bottom: none;
+}
+
+.site-title,
+.site-title:visited {
+  color: #fff !important;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.site-header-logo {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+// Desktop nav links (white on blue)
+@media screen and (min-width: 600px) {
+  .site-nav .page-link {
+    color: rgba(255, 255, 255, 0.9);
+
+    &:hover {
+      color: $mkfc-gold;
+    }
+  }
+}
+
+// Hamburger icon (white on blue)
+.site-nav label[for="nav-trigger"] .menu-icon > svg {
+  fill: rgba(255, 255, 255, 0.9);
+}
+
+// ----------------------------------------
+// Headings
+// ----------------------------------------
+
+h1, h2, h3, h4, h5, h6 {
+  color: $mkfc-blue;
+}
+
+// ----------------------------------------
+// Hero section (home page)
+// ----------------------------------------
+
+.hero {
+  background-color: $mkfc-blue;
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  margin-left: -50vw;
+  margin-bottom: 2rem;
+}
+
+.hero-inner {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.hero-tagline {
+  color: $mkfc-light-blue;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid $mkfc-gold;
+  margin-bottom: 1rem;
+  object-fit: cover;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+// ----------------------------------------
+// CTA buttons
+// ----------------------------------------
+
+.cta-button {
+  display: inline-block;
+  background-color: $mkfc-gold;
+  color: $mkfc-blue !important;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-weight: 700;
+  text-decoration: none !important;
+
+  &:hover {
+    background-color: $mkfc-gold-dark;
+  }
+}
+
+.cta-button-outline {
+  display: inline-block;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff !important;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-weight: 700;
+  text-decoration: none !important;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+// ----------------------------------------
+// Info cards (home page)
+// ----------------------------------------
+
+.info-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.info-card {
+  background: #f8f9fa;
+  border: 1px solid $mkfc-light-blue;
+  border-radius: 6px;
+  padding: 1.25rem;
+
+  h3 {
+    margin-top: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $mkfc-gold;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+// ----------------------------------------
+// Tables (fixtures, etc.)
+// ----------------------------------------
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+
+  th {
+    background-color: $mkfc-blue;
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  td {
+    padding: 0.5rem 0.75rem;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f0f4fa;
+  }
+
+  // Highlight home games
+  tr:hover {
+    background-color: #e8eef8;
+  }
+}
+
+// ----------------------------------------
+// Club song audio player
+// ----------------------------------------
+
+.club-song-player {
+  background: #f0f4fa;
+  border: 1px solid $mkfc-light-blue;
+  border-radius: 6px;
+  padding: 1.25rem;
+  margin: 1rem 0;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  audio {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}
+
+// ----------------------------------------
+// Footer
+// ----------------------------------------
+
+.site-footer {
+  background-color: $mkfc-blue;
+  color: $mkfc-light-blue;
+  border-top: 3px solid $mkfc-gold;
+
+  .footer-heading {
+    color: #fff;
+  }
+
+  a, a:visited {
+    color: $mkfc-light-blue;
+
+    &:hover {
+      color: $mkfc-gold;
+    }
+  }
+
+  .p-name {
+    color: #fff;
+  }
+}
+
+// ----------------------------------------
+// 404 page
+// ----------------------------------------
+
+.error-page {
+  text-align: center;
+  padding: 3rem 0;
+
+  .error-code {
+    font-size: 6rem;
+    font-weight: 700;
+    color: $mkfc-blue;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .error-message {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2rem;
+  }
+}

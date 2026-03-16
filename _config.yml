@@ -23,15 +23,19 @@ plugins:
 header_pages:
   - index.md
   - about/index.md
-  - history/index.md
   - news/index.md
   - players/index.md
   - sponsors/index.md
-  - documents/index.md
   - calendar/index.md
   - contact/index.md
 
 show_excerpts: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /logo-2025.jpg
 
 # Exclude from processing.
 exclude:

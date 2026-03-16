@@ -57,7 +57,7 @@ The Moorabbin Kangaroos Football Club was established in **1965** by a group of 
 
 The Moorabbin Kangaroos proudly wear **Royal Blue**, **White**, and **Gold** — inspired by the AFL's North Melbourne Kangaroos.
 
-- **Royal Blue** (Primary) — #003B9B
+- **Royal Blue** (Primary) — #1A3B8E
 - **White** (Primary)
 - **Gold** (Accent) — #FFCD00
 
@@ -186,6 +186,14 @@ Follow us to stay up to date with news, results, and events:
 ---
 
 ## Club Song
+
+<div class="club-song-player">
+  <h3>Listen to the Club Song</h3>
+  <audio controls preload="none">
+    <source src="/videos/song-trimmed.mp3" type="audio/mpeg">
+    Your browser does not support the audio player.
+  </audio>
+</div>
 
 > Hearts to hearts and hands to hands,
 > Beneath the blue and white we stand.
