@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Moorabbin Kangaroos FC — New Player Welcome Pack</title>
+<style>
+  @page {
+    size: A4;
+    margin: 18mm 20mm 20mm 20mm;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.45;
+    color: #222;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* --- Cover page --- */
+  .cover-page {
+    page-break-after: always;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #003B9B;
+    color: #fff;
+    text-align: center;
+    margin: -18mm -20mm 0 -20mm;
+    padding: 40mm 30mm;
+  }
+  .cover-page img {
+    width: 220px;
+    margin-bottom: 30px;
+  }
+  .cover-page h1 {
+    font-size: 28pt;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  .cover-page h2 {
+    font-size: 18pt;
+    font-weight: 400;
+    color: #FFCD00;
+    margin-bottom: 30px;
+  }
+  .cover-page .season {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #FFCD00;
+    margin-bottom: 8px;
+  }
+  .cover-page .detail {
+    font-size: 12pt;
+    color: #ccc;
+    margin-bottom: 4px;
+  }
+  .cover-page .detail a { color: #FFCD00; text-decoration: none; }
+
+  /* --- Section headings --- */
+  h1 {
+    font-size: 20pt;
+    font-weight: 800;
+    color: #003B9B;
+    border-bottom: 3px solid #FFCD00;
+    padding-bottom: 4px;
+    margin: 24px 0 12px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  h2 {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #003B9B;
+    margin: 18px 0 8px 0;
+  }
+  h3 {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #333;
+    margin: 12px 0 6px 0;
+  }
+
+  p { margin: 6px 0; }
+
+  /* --- Tables --- */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 14px 0;
+    font-size: 10pt;
+  }
+  th {
+    background: #003B9B;
+    color: #fff;
+    text-align: left;
+    padding: 6px 8px;
+    font-weight: 700;
+  }
+  td {
+    padding: 5px 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  tr:nth-child(even) td { background: #f0f4fa; }
+  tr:hover td { background: #e2eaf6; }
+
+  /* Form table */
+  table.form-table td:first-child {
+    font-weight: 600;
+    width: 40%;
+    background: #f0f4fa;
+  }
+  table.form-table td:last-child {
+    border-bottom: 1px dotted #999;
+    min-height: 22px;
+  }
+
+  /* --- Lists --- */
+  ul, ol { margin: 6px 0 10px 22px; }
+  li { margin-bottom: 3px; }
+
+  /* --- Blockquote (song) --- */
+  blockquote {
+    background: #f0f4fa;
+    border-left: 4px solid #003B9B;
+    padding: 14px 18px;
+    margin: 12px 0;
+    font-style: italic;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  /* --- Colour swatches --- */
+  .colour-swatches {
+    display: flex;
+    gap: 16px;
+    margin: 10px 0 14px 0;
+  }
+  .swatch {
+    width: 80px;
+    text-align: center;
+  }
+  .swatch-box {
+    width: 80px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 4px;
+  }
+  .swatch-label { font-size: 9pt; font-weight: 600; }
+  .swatch-hex { font-size: 8pt; color: #666; }
+
+  /* --- Page break helpers --- */
+  .page-break { page-break-before: always; }
+
+  /* --- Accent bar --- */
+  .accent-bar {
+    height: 4px;
+    background: linear-gradient(90deg, #003B9B 0%, #FFCD00 100%);
+    margin: 20px 0;
+    border: none;
+  }
+
+  /* --- Footer on each page --- */
+  .page-footer {
+    font-size: 8pt;
+    color: #999;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 6px;
+  }
+
+  /* --- Checkbox list --- */
+  .checkbox-list { list-style: none; margin-left: 0; padding-left: 0; }
+  .checkbox-list li {
+    padding-left: 24px;
+    position: relative;
+    margin-bottom: 6px;
+  }
+  .checkbox-list li::before {
+    content: "\2610";
+    position: absolute;
+    left: 0;
+    font-size: 14pt;
+    line-height: 1;
+    top: -1px;
+  }
+
+  .signature-line {
+    margin-top: 20px;
+    font-weight: 600;
+  }
+
+  strong { font-weight: 700; }
+
+  a { color: #003B9B; }
+</style>
+</head>
+<body>
+
+<!-- ======================== COVER PAGE ======================== -->
+<div class="cover-page">
+  <img src="/home/peter/mkfc.github.io/logo.jpg" alt="Moorabbin Kangaroos FC Logo">
+  <h1>Moorabbin Kangaroos<br>Football Club</h1>
+  <h2>New Player Welcome Pack</h2>
+  <p class="season">Season 2026</p>
+  <p class="detail">Widdop Crescent Oval, Hampton East</p>
+  <p class="detail"><a href="https://www.mkfc.org.au">www.mkfc.org.au</a></p>
+</div>
+
+<!-- ======================== WELCOME ======================== -->
+<h1>Welcome to the Moorabbin Kangaroos Football Club</h1>
+
+<p>Welcome to the Moorabbin Kangaroos! Whether you're a seasoned footballer or lacing up the boots for the first time, we're thrilled to have you as part of our club. The Roos are a community-focused club built on mateship, respect, and a love of the game.</p>
+
+<p>We currently field two teams in the <strong>Southern Football and Netball League (SFNL) Division 4</strong> competition:</p>
+
+<ol>
+  <li><strong>Senior Men's Team</strong></li>
+  <li><strong>Reserves Team</strong></li>
+</ol>
+
+<p>We welcome players of all experience levels. Come down, get involved, and be part of something great.</p>
+
+<hr class="accent-bar">
+
+<!-- ======================== HISTORY ======================== -->
+<h1>Club History</h1>
+
+<p>The Moorabbin Kangaroos Football Club was established in <strong>1965</strong> by a group of local football enthusiasts who wanted to create a community-focused club in the Moorabbin area.</p>
+
+<h2>Key Milestones</h2>
+<ul>
+  <li><strong>1965</strong> &mdash; Club founded</li>
+  <li><strong>1972</strong> &mdash; First Division 2 Premiership</li>
+  <li><strong>1978</strong> &mdash; Moved to our current home ground at Widdop Crescent</li>
+  <li><strong>1985</strong> &mdash; Club record attendance of 2,500 for Grand Final</li>
+  <li><strong>2005</strong> &mdash; Celebrated 40th anniversary</li>
+  <li><strong>2012</strong> &mdash; Joined the Southern Football Netball League</li>
+  <li><strong>2020</strong> &mdash; Survived COVID-19 challenges with strong membership</li>
+</ul>
+
+<h2>Premierships</h2>
+<ul>
+  <li><strong>Division 2:</strong> 1972, 1985, 1998</li>
+  <li><strong>Division 3:</strong> 2007</li>
+  <li><strong>Reserves:</strong> 2015</li>
+</ul>
+
+<hr class="accent-bar">
+
+<!-- ======================== COLOURS ======================== -->
+<h1>Our Club Colours</h1>
+
+<p>The Moorabbin Kangaroos proudly wear <strong>Royal Blue</strong>, <strong>White</strong>, and <strong>Gold</strong> &mdash; inspired by the AFL's North Melbourne Kangaroos.</p>
+
+<div class="colour-swatches">
+  <div class="swatch">
+    <div class="swatch-box" style="background:#003B9B;"></div>
+    <div class="swatch-label">Royal Blue</div>
+    <div class="swatch-hex">#003B9B</div>
+  </div>
+  <div class="swatch">
+    <div class="swatch-box" style="background:#FFFFFF; border: 2px solid #ccc;"></div>
+    <div class="swatch-label">White</div>
+    <div class="swatch-hex">#FFFFFF</div>
+  </div>
+  <div class="swatch">
+    <div class="swatch-box" style="background:#FFCD00;"></div>
+    <div class="swatch-label">Gold</div>
+    <div class="swatch-hex">#FFCD00</div>
+  </div>
+</div>
+
+<hr class="accent-bar">
+
+<!-- ======================== SFNL ======================== -->
+<h1>The Southern Football and Netball League (SFNL)</h1>
+
+<p>The SFNL is one of Melbourne's largest community football and netball leagues, covering the south-eastern suburbs. The league runs multiple divisions across senior football, reserves, under-age, and women's competitions.</p>
+
+<p>The Moorabbin Kangaroos compete in <strong>Division 4</strong>, which is a competitive grade suited to a mix of experienced and developing players. Fixtures, ladders, and league news can be found at:</p>
+
+<p><strong><a href="https://www.sfnl.com.au">www.sfnl.com.au</a></strong></p>
+
+<hr class="accent-bar">
+
+<!-- ======================== TRAINING ======================== -->
+<h1>Training &amp; Match Day</h1>
+
+<h2>Training</h2>
+<ul>
+  <li><strong>Days:</strong> Tuesday &amp; Thursday evenings</li>
+  <li><strong>Time:</strong> 6:00pm &ndash; 8:00pm</li>
+  <li><strong>Location:</strong> Widdop Crescent Oval, Hampton East 3188</li>
+</ul>
+
+<h2>What to Bring to Training</h2>
+<ul>
+  <li>Football boots (moulded studs recommended)</li>
+  <li>Mouthguard</li>
+  <li>Water bottle</li>
+  <li>Comfortable training gear (club training tops available for purchase)</li>
+</ul>
+
+<h2>Match Day</h2>
+<ul>
+  <li><strong>Arrival:</strong> At least 45 minutes before the scheduled bounce</li>
+  <li><strong>Provided:</strong> Club guernsey, shorts, and socks on game day</li>
+  <li><strong>Bring:</strong> Your own boots, mouthguard, and any personal strapping or supports</li>
+  <li>Games are typically played on Saturdays &mdash; check the fixture for times</li>
+</ul>
+
+<!-- ======================== FIXTURE ======================== -->
+<div class="page-break"></div>
+<h1>Season 2026 Fixture &mdash; Moorabbin Kangaroos</h1>
+
+<p>All home games are played at <strong>Moorabbin West Reserve</strong> (Widdop Crescent Oval, Hampton East).</p>
+
+<table>
+  <thead>
+    <tr><th>Round</th><th>Date</th><th>Opponent</th><th>H/A</th><th>Venue</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Sat 11 April</td><td>Doveton Eagles</td><td>Away</td><td>Power Reserve</td></tr>
+    <tr><td>2</td><td>Sat 18 April</td><td>Narre South Saints</td><td>Away</td><td>Strathaird Reserve</td></tr>
+    <tr><td>3</td><td>Sat 25 April</td><td>Lyndale</td><td>Home</td><td>Moorabbin West Reserve</td></tr>
+    <tr><td>4</td><td>Sat 2 May</td><td>Ashwood</td><td>Away</td><td>Essex Heights Reserve</td></tr>
+    <tr><td>5</td><td>Sat 9 May</td><td>St John's OC</td><td>Home</td><td>Moorabbin West Reserve</td></tr>
+    <tr><td>6</td><td>Sat 16 May</td><td>Dandenong West</td><td>Home</td><td>Moorabbin West Reserve</td></tr>
+    <tr><td>7</td><td>Sat 23 May</td><td>South Yarra</td><td>Away</td><td>Leigh Park</td></tr>
+    <tr><td>8</td><td>Sat 30 May</td><td>Clayton</td><td>Away</td><td>Meade Reserve</td></tr>
+    <tr><td>9</td><td>Sat 6 June</td><td><strong>BYE</strong></td><td>&mdash;</td><td>&mdash;</td></tr>
+    <tr><td>10</td><td>Sat 13 June</td><td>Doveton Eagles</td><td>Home</td><td>Moorabbin West Reserve</td></tr>
+    <tr><td>11</td><td>Sat 20 June</td><td>Narre South Saints</td><td>Home</td><td>Moorabbin West Reserve</td></tr>
+    <tr><td>12</td><td>Sat 27 June</td><td>Lyndale</td><td>Away</td><td>Barry Powell Reserve</td></tr>
+    <tr><td>13</td><td>Sat 4 July</td><td>Ashwood</td><td>Home</td><td>Moorabbin West Reserve</td></tr>
+    <tr><td>14</td><td>Sat 11 July</td><td>St John's OC</td><td>Away</td><td>Thomas Carroll Reserve</td></tr>
+    <tr><td>15</td><td>Sat 18 July</td><td>Dandenong West</td><td>Away</td><td>Greaves Reserve</td></tr>
+    <tr><td>16</td><td>Sat 25 July</td><td>South Yarra</td><td>Home</td><td>Moorabbin West Reserve</td></tr>
+    <tr><td>17</td><td>Sat 1 August</td><td>Clayton</td><td>Home</td><td>Moorabbin West Reserve</td></tr>
+    <tr><td>18</td><td>Sat 8 August</td><td><strong>BYE</strong></td><td>&mdash;</td><td>&mdash;</td></tr>
+  </tbody>
+</table>
+
+<h2>Finals Series</h2>
+<table>
+  <thead>
+    <tr><th>Week</th><th>Date</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Week 1 Finals</td><td>15&ndash;16 August</td></tr>
+    <tr><td>Week 2 Finals</td><td>22&ndash;23 August</td></tr>
+    <tr><td>Week 3 Finals</td><td>29 August</td></tr>
+    <tr><td>Grand Final</td><td>5 September</td></tr>
+  </tbody>
+</table>
+
+<hr class="accent-bar">
+
+<!-- ======================== FEES ======================== -->
+<h1>Fees &amp; Membership</h1>
+
+<table>
+  <thead>
+    <tr><th>Category</th><th>Fee</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Senior Player Registration</td><td>$ TBC</td></tr>
+    <tr><td>Reserves Player Registration</td><td>$ TBC</td></tr>
+    <tr><td>Social Membership</td><td>$ TBC</td></tr>
+  </tbody>
+</table>
+
+<p>Registration fees cover your SFNL player registration, insurance, and club membership for the season.</p>
+
+<p><strong>Payment methods:</strong> Contact the Treasurer to arrange payment.</p>
+
+<hr class="accent-bar">
+
+<!-- ======================== COMMITTEE ======================== -->
+<h1>Committee Members</h1>
+
+<table>
+  <thead>
+    <tr><th>Role</th><th>Name</th><th>Phone</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>President</td><td>Muhammad Kiki</td><td>0419 904 242</td></tr>
+    <tr><td>Vice President</td><td>Simon Griffiths</td><td>0408 585 576</td></tr>
+    <tr><td>Secretary</td><td>Margaret Torpy</td><td>0407 442 436</td></tr>
+    <tr><td>Treasurer</td><td>Noel Stewart</td><td>0404 481 078</td></tr>
+    <tr><td>Team Manager</td><td>Mick McCombe</td><td>0400 000 003</td></tr>
+  </tbody>
+</table>
+
+<hr class="accent-bar">
+
+<!-- ======================== CONTACT ======================== -->
+<h1>Contact Details</h1>
+
+<p><strong>Email:</strong> <a href="mailto:info@mkfc.org.au">info@mkfc.org.au</a></p>
+
+<p><strong>Ground Address:</strong><br>
+Widdop Crescent Oval<br>
+41 Widdop Crescent<br>
+Hampton East VIC 3188</p>
+
+<p><strong>Website:</strong> <a href="https://www.mkfc.org.au">www.mkfc.org.au</a></p>
+
+<hr class="accent-bar">
+
+<!-- ======================== SOCIAL MEDIA ======================== -->
+<h1>Social Media</h1>
+
+<p>Follow us to stay up to date with news, results, and events:</p>
+
+<ul>
+  <li><strong>Facebook:</strong> facebook.com/moorabbinroos</li>
+  <li><strong>Instagram:</strong> instagram.com/moorabbinroos</li>
+  <li><strong>Twitter:</strong> twitter.com/moorabbinroos</li>
+</ul>
+
+<hr class="accent-bar">
+
+<!-- ======================== CLUB SONG ======================== -->
+<h1>Club Song</h1>
+
+<blockquote>
+  Hearts to hearts and hands to hands,<br>
+  Beneath the blue and white we stand.<br>
+  We shout, God bless our native land,<br>
+  Moorabbin, Moorabbin.<br><br>
+  Out we come, out we come, out we come to play,<br>
+  Just for recreation's sake, to pass the time away.<br>
+  Lots of fun, heaps of fun, enjoy yourself today.<br>
+  Moorabbin boys/girls are hard to beat when they come out to play.<br><br>
+  So join in the chorus, and sing it one and all,<br>
+  Join in the chorus, Moorabbin's on the ball.<br>
+  Good old Moorabbin, they're champions you'll agree.<br>
+  Moorabbin is the team that plays to win for you and me.
+</blockquote>
+
+<!-- ======================== CODE OF CONDUCT ======================== -->
+<div class="page-break"></div>
+<h1>Code of Conduct</h1>
+
+<p>As a member of the Moorabbin Kangaroos Football Club, you are expected to:</p>
+
+<ul>
+  <li>Treat all players, officials, volunteers, and spectators with <strong>respect and courtesy</strong></li>
+  <li>Play within the <strong>rules of the game</strong> and accept umpires' decisions</li>
+  <li>Represent the club with pride, both on and off the field</li>
+  <li>Support your <strong>teammates</strong> and contribute to a positive club culture</li>
+  <li>Refrain from any form of <strong>bullying, harassment, or discrimination</strong></li>
+  <li>Respect <strong>club property</strong> and the facilities of host clubs</li>
+  <li>Comply with the <strong>SFNL's Member Protection Policy</strong> and any AFL Victoria regulations</li>
+  <li>Behave responsibly when representing the club at <strong>social functions</strong></li>
+</ul>
+
+<p>Breaches of this code may be dealt with by the committee in accordance with the club's constitution.</p>
+
+<hr class="accent-bar">
+
+<!-- ======================== SPONSORS ======================== -->
+<h1>Our Sponsors</h1>
+
+<p>The Moorabbin Kangaroos FC gratefully acknowledges the support of our sponsors:</p>
+
+<h2>Major Sponsors</h2>
+<ul>
+  <li>Local Business Pty Ltd &mdash; Supporting us since 2015</li>
+  <li>Hampton East Automotive &mdash; Official vehicle partner</li>
+</ul>
+
+<h2>Community Partners</h2>
+<ul>
+  <li>Eastside Community Bank</li>
+  <li>Hampton East Medical Centre</li>
+  <li>Widdop Crescent Sports Club</li>
+</ul>
+
+<p>Interested in sponsoring the club? Contact <strong>Emma Davis</strong> at <a href="mailto:sponsors@mkfc.org.au">sponsors@mkfc.org.au</a> or call 0400 000 004.</p>
+
+<hr class="accent-bar">
+
+<!-- ======================== REGISTRATION FORM ======================== -->
+<div class="page-break"></div>
+<h1>New Player Registration Form</h1>
+
+<p>Please complete the details below and return to a committee member.</p>
+
+<h2>Personal Details</h2>
+<table class="form-table">
+  <tr><td>Full Name</td><td></td></tr>
+  <tr><td>Date of Birth</td><td></td></tr>
+  <tr><td>Address</td><td></td></tr>
+  <tr><td>Suburb / Postcode</td><td></td></tr>
+  <tr><td>Email</td><td></td></tr>
+  <tr><td>Mobile Phone</td><td></td></tr>
+</table>
+
+<h2>Emergency Contact</h2>
+<table class="form-table">
+  <tr><td>Contact Name</td><td></td></tr>
+  <tr><td>Relationship</td><td></td></tr>
+  <tr><td>Phone Number</td><td></td></tr>
+</table>
+
+<h2>Football Background</h2>
+<table class="form-table">
+  <tr><td>Previous Club(s)</td><td></td></tr>
+  <tr><td>Years of Experience</td><td></td></tr>
+  <tr><td>Preferred Position(s)</td><td></td></tr>
+  <tr><td>Highest Level Played</td><td></td></tr>
+  <tr><td>AFL Victoria ID (if known)</td><td></td></tr>
+</table>
+
+<h2>Medical Information</h2>
+<table class="form-table">
+  <tr><td>Known Medical Conditions</td><td></td></tr>
+  <tr><td>Allergies</td><td></td></tr>
+  <tr><td>Current Medications</td><td></td></tr>
+  <tr><td>Do you have private health insurance?</td><td>Yes / No</td></tr>
+</table>
+
+<h2>Consent &amp; Declaration</h2>
+<ul class="checkbox-list">
+  <li>I agree to abide by the club's Code of Conduct</li>
+  <li>I consent to photographs and videos being taken during club activities for use on the club's website and social media</li>
+  <li>I understand that playing Australian rules football carries inherent risk of injury</li>
+  <li>I declare the above information is true and correct</li>
+</ul>
+
+<p class="signature-line">Signature: ______________________________ &nbsp;&nbsp;&nbsp; Date: _______________</p>
+
+<hr class="accent-bar">
+
+<p style="text-align:center; font-style:italic; font-size:14pt; color:#003B9B; margin-top:30px; font-weight:700;">Go Roos!</p>
+
+<div class="page-footer">
+  Moorabbin Kangaroos Football Club &bull; www.mkfc.org.au &bull; Season 2026
+</div>
+
+</body>
+</html>
