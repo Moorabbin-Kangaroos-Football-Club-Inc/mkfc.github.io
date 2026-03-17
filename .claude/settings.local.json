@@ -12,7 +12,10 @@
       "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --print-to-pdf=welcome/welcome-pack.pdf --no-margins welcome/welcome-pack.html 2>&1)",
       "Bash(where msedge:*)",
       "Bash(\"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\" --headless --disable-gpu --print-to-pdf=\"C:/storage/git/mkfc.github.io/welcome/welcome-pack.pdf\" --no-margins \"file:///C:/storage/git/mkfc.github.io/welcome/welcome-pack.html\" 2>&1)",
-      "Bash(\"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\" --headless --disable-gpu --print-to-pdf=\"C:/storage/git/mkfc.github.io/welcome/welcome-pack-new.pdf\" --no-margins \"file:///C:/storage/git/mkfc.github.io/welcome/welcome-pack.html\" 2>&1)"
+      "Bash(\"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\" --headless --disable-gpu --print-to-pdf=\"C:/storage/git/mkfc.github.io/welcome/welcome-pack-new.pdf\" --no-margins \"file:///C:/storage/git/mkfc.github.io/welcome/welcome-pack.html\" 2>&1)",
+      "Bash(where google-chrome:*)",
+      "Read(//c/Program Files \\(x86\\)/Google/Chrome/Application/**)",
+      "Bash(ls \"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\")"
     ]
   }
 }

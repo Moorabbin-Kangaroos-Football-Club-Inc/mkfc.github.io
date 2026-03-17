@@ -14,28 +14,28 @@ description: "Season 2026 fixtures, training schedule, and key dates for the Moo
 
 ## Season 2026 Fixtures
 
-All home games are played at **Moorabbin West Reserve** (Widdop Crescent Oval, Hampton East).
+All home games are played at **Moorabbin Reserve**.
 
 | Round | Date | Opponent | Home/Away | Venue |
 |---|---|---|---|---|
-| 1 | Sat 11 April | Doveton Eagles | Away | Power Reserve |
-| 2 | Sat 18 April | Narre South Saints | Away | Strathaird Reserve |
-| 3 | Sat 25 April | Lyndale | Home | Moorabbin West Reserve |
-| 4 | Sat 2 May | Ashwood | Away | Essex Heights Reserve |
-| 5 | Sat 9 May | St John's OC | Home | Moorabbin West Reserve |
-| 6 | Sat 16 May | Dandenong West | Home | Moorabbin West Reserve |
-| 7 | Sat 23 May | South Yarra | Away | Leigh Park |
-| 8 | Sat 30 May | Clayton | Away | Meade Reserve |
-| 9 | Sat 6 June | **BYE** | — | — |
-| 10 | Sat 13 June | Doveton Eagles | Home | Moorabbin West Reserve |
-| 11 | Sat 20 June | Narre South Saints | Home | Moorabbin West Reserve |
-| 12 | Sat 27 June | Lyndale | Away | Barry Powell Reserve |
-| 13 | Sat 4 July | Ashwood | Home | Moorabbin West Reserve |
-| 14 | Sat 11 July | St John's OC | Away | Thomas Carroll Reserve |
+| 1 | Sat 11 April | Dandenong West | Home | Moorabbin Reserve |
+| 2 | Sat 18 April | Clayton | Home | Moorabbin Reserve |
+| 3 | Sat 25 April | Lyndale | Home | Moorabbin Reserve |
+| 4 | Sat 2 May | Narre South Saints | Away | Strathaird Reserve |
+| 5 | Sat 9 May | Ashwood | Away | Essex Heights Reserve |
+| 6 | Sat 16 May | Doveton Eagles | Home | Moorabbin Reserve |
+| 7 | Sat 23 May | St Johns OC | Away | Thomas Carroll Reserve |
+| 8 | Sat 30 May | Dandenong West | Away | Greaves Reserve |
+| 9 | Sat 6 June | Clayton | Away | Meade Reserve |
+| 10 | Sat 13 June | Lyndale | Home | Moorabbin Reserve |
+| 11 | Sat 20 June | Narre South Saints | Home | Moorabbin Reserve |
+| 12 | Sat 27 June | Ashwood | Home | Moorabbin Reserve |
+| 13 | Sat 4 July | Doveton Eagles | Away | Power Reserve |
+| 14 | Sat 11 July | St Johns OC | Home | Moorabbin Reserve |
 | 15 | Sat 18 July | Dandenong West | Away | Greaves Reserve |
-| 16 | Sat 25 July | South Yarra | Home | Moorabbin West Reserve |
-| 17 | Sat 1 August | Clayton | Home | Moorabbin West Reserve |
-| 18 | Sat 8 August | **BYE** | — | — |
+| 16 | Sat 25 July | Clayton | Away | Meade Reserve |
+| 17 | Sat 1 August | Lyndale | Away | Barry Powell Reserve |
+| 18 | Sat 8 August | Narre South Saints | Home | Moorabbin Reserve |
 
 ### Finals Series
 
