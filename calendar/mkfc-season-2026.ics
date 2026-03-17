@@ -1,0 +1,24 @@
+---
+layout: null
+---
+{%- assign f = site.data.fixtures -%}
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Moorabbin Kangaroos FC//Season {{ f.season }}//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MKFC Season {{ f.season }} Fixtures
+X-WR-TIMEZONE:{{ f.timezone }}
+{%- for game in f.games %}
+BEGIN:VEVENT
+UID:mkfc-{{ f.season }}-r{{ game.round }}@mkfc.org.au
+DTSTAMP:{{ site.time | date: "%Y%m%dT%H%M%SZ" }}
+DTSTART;TZID={{ f.timezone }}:{{ game.date | date: "%Y%m%d" }}T{{ f.start_time | remove: ":" }}00
+DTEND;TZID={{ f.timezone }}:{{ game.date | date: "%Y%m%d" }}T{{ f.end_time | remove: ":" }}00
+SUMMARY:MKFC vs {{ game.opponent }}
+LOCATION:{{ game.venue }}
+DESCRIPTION:Round {{ game.round }} - {{ game.home_away }} | {{ f.league }}
+STATUS:CONFIRMED
+END:VEVENT
+{%- endfor %}
+END:VCALENDAR

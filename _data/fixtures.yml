@@ -1,0 +1,97 @@
+season: 2026
+start_time: "14:00"
+end_time: "17:00"
+timezone: "Australia/Melbourne"
+league: "Southern Football & Netball League"
+
+games:
+  - round: 1
+    date: 2026-04-11
+    opponent: Dandenong West
+    home_away: Home
+    venue: Moorabbin Reserve
+  - round: 2
+    date: 2026-04-18
+    opponent: Clayton
+    home_away: Home
+    venue: Moorabbin Reserve
+  - round: 3
+    date: 2026-04-25
+    opponent: Lyndale
+    home_away: Home
+    venue: Moorabbin Reserve
+  - round: 4
+    date: 2026-05-02
+    opponent: Narre South Saints
+    home_away: Away
+    venue: Strathaird Reserve
+  - round: 5
+    date: 2026-05-09
+    opponent: Ashwood
+    home_away: Away
+    venue: Essex Heights Reserve
+  - round: 6
+    date: 2026-05-16
+    opponent: Doveton Eagles
+    home_away: Home
+    venue: Moorabbin Reserve
+  - round: 7
+    date: 2026-05-23
+    opponent: St Johns OC
+    home_away: Away
+    venue: Thomas Carroll Reserve
+  - round: 8
+    date: 2026-05-30
+    opponent: Dandenong West
+    home_away: Away
+    venue: Greaves Reserve
+  - round: 9
+    date: 2026-06-06
+    opponent: Clayton
+    home_away: Away
+    venue: Meade Reserve
+  - round: 10
+    date: 2026-06-13
+    opponent: Lyndale
+    home_away: Home
+    venue: Moorabbin Reserve
+  - round: 11
+    date: 2026-06-20
+    opponent: Narre South Saints
+    home_away: Home
+    venue: Moorabbin Reserve
+  - round: 12
+    date: 2026-06-27
+    opponent: Ashwood
+    home_away: Home
+    venue: Moorabbin Reserve
+  - round: 13
+    date: 2026-07-04
+    opponent: Doveton Eagles
+    home_away: Away
+    venue: Power Reserve
+  - round: 14
+    date: 2026-07-11
+    opponent: St Johns OC
+    home_away: Home
+    venue: Moorabbin Reserve
+  - round: 15
+    date: 2026-07-18
+    opponent: Dandenong West
+    home_away: Away
+    venue: Greaves Reserve
+  - round: 16
+    date: 2026-07-25
+    opponent: Clayton
+    home_away: Away
+    venue: Meade Reserve
+  - round: 17
+    date: 2026-08-01
+    opponent: Lyndale
+    home_away: Away
+    venue: Barry Powell Reserve
+  - round: 18
+    date: 2026-08-08
+    opponent: Narre South Saints
+    home_away: Home
+    venue: Moorabbin Reserve

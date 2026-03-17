@@ -14,28 +14,40 @@ description: "Season 2026 fixtures, training schedule, and key dates for the Moo
 
 ## Season 2026 Fixtures
 
-All home games are played at **Moorabbin Reserve**.
+All home games are played at **Moorabbin Reserve**. Game times are 2:00 PM.
 
-| Round | Date | Opponent | Home/Away | Venue |
-|---|---|---|---|---|
-| 1 | Sat 11 April | Dandenong West | Home | Moorabbin Reserve |
-| 2 | Sat 18 April | Clayton | Home | Moorabbin Reserve |
-| 3 | Sat 25 April | Lyndale | Home | Moorabbin Reserve |
-| 4 | Sat 2 May | Narre South Saints | Away | Strathaird Reserve |
-| 5 | Sat 9 May | Ashwood | Away | Essex Heights Reserve |
-| 6 | Sat 16 May | Doveton Eagles | Home | Moorabbin Reserve |
-| 7 | Sat 23 May | St Johns OC | Away | Thomas Carroll Reserve |
-| 8 | Sat 30 May | Dandenong West | Away | Greaves Reserve |
-| 9 | Sat 6 June | Clayton | Away | Meade Reserve |
-| 10 | Sat 13 June | Lyndale | Home | Moorabbin Reserve |
-| 11 | Sat 20 June | Narre South Saints | Home | Moorabbin Reserve |
-| 12 | Sat 27 June | Ashwood | Home | Moorabbin Reserve |
-| 13 | Sat 4 July | Doveton Eagles | Away | Power Reserve |
-| 14 | Sat 11 July | St Johns OC | Home | Moorabbin Reserve |
-| 15 | Sat 18 July | Dandenong West | Away | Greaves Reserve |
-| 16 | Sat 25 July | Clayton | Away | Meade Reserve |
-| 17 | Sat 1 August | Lyndale | Away | Barry Powell Reserve |
-| 18 | Sat 8 August | Narre South Saints | Home | Moorabbin Reserve |
+**[Download Full Season Calendar (.ics)](/calendar/mkfc-season-2026.ics)** — Import all 18 rounds into Apple Calendar, Google Calendar, or Outlook.
+
+<table>
+  <thead>
+    <tr>
+      <th>Rnd</th>
+      <th>Date</th>
+      <th>Opponent</th>
+      <th>H/A</th>
+      <th>Venue</th>
+      <th>Add to Calendar</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for game in site.data.fixtures.games %}
+    <tr>
+      <td>{{ game.round }}</td>
+      <td>{{ game.date | date: "%a %-d %b" }}</td>
+      <td>{{ game.opponent }}</td>
+      <td>{{ game.home_away }}</td>
+      <td>{{ game.venue }}</td>
+      <td>
+        <small>
+          <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=MKFC%20vs%20{{ game.opponent | url_encode }}&dates={{ game.date | date: '%Y%m%d' }}T040000Z/{{ game.date | date: '%Y%m%d' }}T070000Z&location={{ game.venue | url_encode }}&details=Round%20{{ game.round }}%20-%20{{ game.home_away }}%20%7C%20SFNL" target="_blank" rel="noopener">Google</a>
+          &middot;
+          <a href="#" class="ical-btn" data-round="{{ game.round }}" data-date="{{ game.date | date: '%Y%m%d' }}" data-opponent="{{ game.opponent }}" data-venue="{{ game.venue }}" data-homeaway="{{ game.home_away }}">iCal</a>
+        </small>
+      </td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
 
 ### Finals Series
 
@@ -53,3 +65,38 @@ Full results and ladders are available on the [SportsTG / GameDay website](https
 ## Key Dates
 
 Check our [Facebook page](https://www.facebook.com/MoorabbinKangaroos) for upcoming social events, fundraisers, and club functions.
+
+<script>
+document.querySelectorAll('.ical-btn').forEach(function(el) {
+  el.addEventListener('click', function(e) {
+    e.preventDefault();
+    var d = el.dataset;
+    var now = new Date().toISOString().replace(/[-:]/g, '').split('.')[0] + 'Z';
+    var lines = [
+      'BEGIN:VCALENDAR',
+      'VERSION:2.0',
+      'PRODID:-//MKFC//Season 2026//EN',
+      'BEGIN:VEVENT',
+      'UID:mkfc-2026-r' + d.round + '@mkfc.org.au',
+      'DTSTAMP:' + now,
+      'DTSTART;TZID=Australia/Melbourne:' + d.date + 'T140000',
+      'DTEND;TZID=Australia/Melbourne:' + d.date + 'T170000',
+      'SUMMARY:MKFC vs ' + d.opponent,
+      'LOCATION:' + d.venue,
+      'DESCRIPTION:Round ' + d.round + ' - ' + d.homeaway + ' | SFNL',
+      'STATUS:CONFIRMED',
+      'END:VEVENT',
+      'END:VCALENDAR'
+    ];
+    var blob = new Blob([lines.join('\r\n')], {type: 'text/calendar;charset=utf-8'});
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = 'mkfc-round-' + d.round + '.ics';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  });
+});
+</script>
