@@ -14,7 +14,7 @@ description: "Season 2026 fixtures, training schedule, and key dates for the Moo
 
 ## Season 2026 Fixtures
 
-All home games are played at **Moorabbin Reserve**. Game times are 2:00 PM.
+All home games are played at [**Moorabbin Reserve**](https://maps.app.goo.gl/DhGiLHBnpMiHvNTu5). Game times are 12 PM for Reserves and 2 PM for Seniors.
 
 **[Download Full Season Calendar (.ics)](/calendar/mkfc-season-2026.ics)** — Import all 18 rounds into Apple Calendar, Google Calendar, or Outlook.
 
