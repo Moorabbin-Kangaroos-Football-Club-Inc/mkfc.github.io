@@ -8,19 +8,62 @@ description: "Sponsors and community partners of the Moorabbin Kangaroos FC. Bec
 
 The Moorabbin Kangaroos FC gratefully acknowledges the support of our sponsors:
 
-- [![CoinPort Exchange](/assets/img/logo_square_400x400.png){: width="150" }](https://www.coinport.com.au/)
-  [CoinPort Exchange](https://www.coinport.com.au/)
-- [![Macktow](/assets/img/macktow.png){: width="150" }](https://www.macktow.com.au/)
-  [Macktow](https://www.macktow.com.au/)
-- Cyptochat
-- [Community Bank - Highett](https://www.bendigobank.com.au/branch/vic/community-bank-highett/)
-- [![KFC - Southland](/assets/img/kfc.svg){: width="150" }](https://www.kfc.com.au/restaurants/kfc-southland-mall/3192)
-  [KFC - Southland](https://www.kfc.com.au/restaurants/kfc-southland-mall/3192)
-- [Bentleigh RSL](https://bentleighrsl.com.au/)
-- [![Youle Garden Supplies](/assets/img/Youleys.png){: width="150" }](https://youleysgspc.com.au/)
-  [Youle Garden Supplies](https://youleysgspc.com.au/)
-- [Catalog Clothing](https://www.catalogclothing.com.au/)
-- [TGI Fridays](https://www.tgifridays.com.au/)
+<table>
+  <thead>
+    <tr>
+      <th style="width:120px">Logo</th>
+      <th>Sponsor</th>
+      <th>Website</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><img src="/assets/img/logo_square_400x400.png" alt="CoinPort Exchange" style="width:100px; height:100px; object-fit:contain;"></td>
+      <td>CoinPort Exchange</td>
+      <td><a href="https://www.coinport.com.au/">www.coinport.com.au</a></td>
+    </tr>
+    <tr>
+      <td><img src="/assets/img/macktow.png" alt="Macktow" style="width:100px; height:100px; object-fit:contain;"></td>
+      <td>Macktow</td>
+      <td><a href="https://www.macktow.com.au/">www.macktow.com.au</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cyptochat</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Community Bank - Highett</td>
+      <td><a href="https://www.bendigobank.com.au/branch/vic/community-bank-highett/">www.bendigobank.com.au/branch/vic/community-bank-highett</a></td>
+    </tr>
+    <tr>
+      <td><img src="/assets/img/kfc.svg" alt="KFC - Southland" style="width:100px; height:100px; object-fit:contain;"></td>
+      <td>KFC - Southland</td>
+      <td><a href="https://www.kfc.com.au/restaurants/kfc-southland-mall/3192">www.kfc.com.au/restaurants/kfc-southland-mall/3192</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Bentleigh RSL</td>
+      <td><a href="https://bentleighrsl.com.au/">bentleighrsl.com.au</a></td>
+    </tr>
+    <tr>
+      <td><img src="/assets/img/Youleys.png" alt="Youle Garden Supplies" style="width:100px; height:100px; object-fit:contain;"></td>
+      <td>Youle Garden Supplies</td>
+      <td><a href="https://youleysgspc.com.au/">youleysgspc.com.au</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Catalog Clothing</td>
+      <td><a href="https://www.catalogclothing.com.au/">www.catalogclothing.com.au</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>TGI Fridays</td>
+      <td><a href="https://www.tgifridays.com.au/">www.tgifridays.com.au</a></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Become a Sponsor
 
