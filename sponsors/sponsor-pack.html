@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Moorabbin Kangaroos FC — Partnership Guide 2026</title>
+<style>
+  @page {
+    size: A4;
+    margin: 18mm 20mm 20mm 20mm;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11pt;
+    line-height: 1.45;
+    color: #222;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* --- Cover page --- */
+  .cover-page {
+    page-break-after: always;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #01285e;
+    color: #fff;
+    text-align: center;
+    margin: -18mm -20mm 0 -20mm;
+    padding: 40mm 30mm;
+  }
+  .cover-page img {
+    width: 440px;
+    margin-bottom: 30px;
+  }
+  .cover-page h1 {
+    font-family: "DIN Condensed", "Helvetica Neue Condensed", "HelveticaNeue-CondensedBold", "Arial Narrow", sans-serif;
+    font-size: 28pt;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    border-bottom: none;
+  }
+  .cover-page h2 {
+    font-size: 18pt;
+    font-weight: 400;
+    color: #C4D1E5;
+    margin-bottom: 30px;
+  }
+  .cover-page .season {
+    font-size: 16pt;
+    font-weight: 700;
+    color: #C4D1E5;
+    margin-bottom: 8px;
+  }
+  .cover-page .detail {
+    font-size: 12pt;
+    color: #ccc;
+    margin-bottom: 4px;
+  }
+  .cover-page .detail a { color: #C4D1E5; text-decoration: none; }
+
+  /* --- Section headings --- */
+  h1, h2, h3 {
+    font-family: "DIN Condensed", "Helvetica Neue Condensed", "HelveticaNeue-CondensedBold", "Arial Narrow", sans-serif;
+  }
+  h1 {
+    font-size: 20pt;
+    font-weight: 800;
+    color: #01285e;
+    border-bottom: 3px solid #C4D1E5;
+    padding-bottom: 4px;
+    margin: 24px 0 12px 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  h2 {
+    font-size: 14pt;
+    font-weight: 700;
+    color: #01285e;
+    margin: 18px 0 8px 0;
+  }
+  h3 {
+    font-size: 12pt;
+    font-weight: 700;
+    color: #333;
+    margin: 12px 0 6px 0;
+  }
+
+  p { margin: 6px 0; }
+
+  /* --- Tables --- */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0 14px 0;
+    font-size: 10pt;
+  }
+  th {
+    background: #01285e;
+    color: #fff;
+    text-align: left;
+    padding: 6px 8px;
+    font-weight: 700;
+  }
+  td {
+    padding: 5px 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  tr:nth-child(even) td { background: #f0f4fa; }
+
+  /* --- Matrix table --- */
+  table.matrix th { text-align: center; font-size: 9pt; }
+  table.matrix th:first-child { text-align: left; }
+  table.matrix td { text-align: center; font-size: 10pt; }
+  table.matrix td:first-child { text-align: left; font-weight: 600; }
+  table.matrix .tick { color: #01285e; font-size: 14pt; font-weight: 700; }
+  table.matrix .price-row td {
+    font-weight: 800;
+    font-size: 11pt;
+    color: #01285e;
+    background: #C4D1E5 !important;
+  }
+
+  /* --- Stats grid --- */
+  .stats-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 16px 0;
+  }
+  .stat-box {
+    flex: 1 1 140px;
+    background: #01285e;
+    color: #fff;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+  .stat-box .stat-number {
+    font-family: "DIN Condensed", "Helvetica Neue Condensed", "Arial Narrow", sans-serif;
+    font-size: 28pt;
+    font-weight: 800;
+    color: #C4D1E5;
+    display: block;
+    line-height: 1.1;
+  }
+  .stat-box .stat-label {
+    font-size: 9pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 4px;
+  }
+
+  /* --- Tier cards --- */
+  .tier-card {
+    border: 2px solid #C4D1E5;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 14px 0;
+    page-break-inside: avoid;
+  }
+  .tier-card h2 {
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .tier-card .tier-price {
+    font-size: 18pt;
+    color: #01285e;
+    font-weight: 800;
+  }
+  .tier-card ul {
+    margin: 8px 0 4px 20px;
+  }
+  .tier-card li {
+    margin-bottom: 3px;
+  }
+
+  /* --- Lists --- */
+  ul, ol { margin: 6px 0 10px 22px; }
+  li { margin-bottom: 3px; }
+
+  /* --- Page break helpers --- */
+  .page-break { page-break-before: always; }
+
+  /* --- Accent bar --- */
+  .accent-bar {
+    height: 4px;
+    background: linear-gradient(90deg, #01285e 0%, #C4D1E5 100%);
+    margin: 20px 0;
+    border: none;
+  }
+
+  /* --- Footer on each page --- */
+  .page-footer {
+    font-size: 8pt;
+    color: #999;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #ddd;
+    padding-top: 6px;
+  }
+
+  /* --- Highlight box --- */
+  .highlight-box {
+    background: #f0f4fa;
+    border-left: 4px solid #01285e;
+    padding: 14px 18px;
+    margin: 12px 0;
+    line-height: 1.6;
+  }
+
+  /* --- Sponsor logos grid --- */
+  .sponsor-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 16px 0;
+  }
+  .sponsor-logos img {
+    height: 60px;
+    object-fit: contain;
+  }
+  .sponsor-logos span {
+    font-weight: 600;
+    font-size: 11pt;
+    color: #01285e;
+  }
+
+  strong { font-weight: 700; }
+  a { color: #01285e; }
+</style>
+</head>
+<body>
+
+<!-- ======================== COVER PAGE ======================== -->
+<div class="cover-page">
+  <img src="../logo.jpg" alt="Moorabbin Kangaroos FC Logo">
+  <h1>Moorabbin Kangaroos<br>Football Club</h1>
+  <h2>Partnership Guide</h2>
+  <p class="season">Season 2026</p>
+  <p class="detail">Widdop Crescent Oval, Hampton East</p>
+  <p class="detail"><a href="https://www.mkfc.org.au">www.mkfc.org.au</a></p>
+</div>
+
+<!-- ======================== ABOUT THE CLUB ======================== -->
+<h1>About the Club</h1>
+
+<p>The Moorabbin Kangaroos Football Club has been a proud part of the local community since <strong>1982</strong>. Based at <strong>Widdop Crescent Oval, Hampton East</strong>, we compete in the <strong>Southern Football and Netball League (SFNL) Division 4</strong> and field two senior men's teams each week.</p>
+
+<p>Our club is built on mateship, respect, and a love of the game. We provide a welcoming and inclusive environment for players of all backgrounds and experience levels.</p>
+
+<div class="stats-grid">
+  <div class="stat-box">
+    <span class="stat-number">1982</span>
+    <span class="stat-label">Club Founded</span>
+  </div>
+  <div class="stat-box">
+    <span class="stat-number">2</span>
+    <span class="stat-label">Senior Men's Teams</span>
+  </div>
+  <div class="stat-box">
+    <span class="stat-number">156</span>
+    <span class="stat-label">Club Members</span>
+  </div>
+  <div class="stat-box">
+    <span class="stat-number">4</span>
+    <span class="stat-label">Senior Premierships</span>
+  </div>
+  <div class="stat-box">
+    <span class="stat-number">1,100+</span>
+    <span class="stat-label">Facebook Followers</span>
+  </div>
+</div>
+
+<hr class="accent-bar">
+
+<!-- ======================== WHY PARTNER ======================== -->
+<h1>Why Partner with Us?</h1>
+
+<p>A partnership with the Moorabbin Kangaroos connects your brand directly to the local community in Melbourne's Bayside and south-eastern suburbs. Our sponsors enjoy genuine, year-round exposure across multiple channels:</p>
+
+<ul>
+  <li><strong>Match day presence</strong> &mdash; banners and signage at 9 home games each season, seen by players, supporters, and the broader community</li>
+  <li><strong>Digital reach</strong> &mdash; promotion to 1,100+ Facebook followers, plus exposure on our website and social media channels</li>
+  <li><strong>Club room visibility</strong> &mdash; logo displayed on the sponsors wall in our social club pavilion, seen at training, games, and functions throughout the year</li>
+  <li><strong>Events and hospitality</strong> &mdash; tickets to club events including Season Launch, Sponsors Day, and Presentation Night</li>
+  <li><strong>Community connection</strong> &mdash; align your business with a genuine grassroots sporting club that gives back to the local area</li>
+</ul>
+
+<div class="highlight-box">
+  <strong>100% tax deductible.</strong> All sponsorship contributions to the Moorabbin Kangaroos Football Club are tax deductible.
+</div>
+
+<!-- ======================== PARTNERSHIP OPTIONS ======================== -->
+<div class="page-break"></div>
+<h1>Partnership Options at a Glance</h1>
+
+<p>We offer a range of partnership levels to suit businesses of all sizes. The table below summarises the benefits included at each level.</p>
+
+<table class="matrix">
+  <thead>
+    <tr>
+      <th style="width:36%;">Benefit</th>
+      <th>Player<br>Sponsor</th>
+      <th>Club Roo<br>Partner</th>
+      <th>Major<br>Partner</th>
+      <th>Grand<br>Partner</th>
+      <th>ANZAC Day<br>Partner</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="price-row">
+      <td></td>
+      <td>$500</td>
+      <td>$1,000</td>
+      <td>$2,000</td>
+      <td>$3,500</td>
+      <td>$5,000</td>
+    </tr>
+    <tr>
+      <td>Personal player sponsored</td>
+      <td class="tick">&#10003;</td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Player's subs paid by club</td>
+      <td></td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Logo on sponsors wall in club rooms</td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+    </tr>
+    <tr>
+      <td>Banner at home games</td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+    </tr>
+    <tr>
+      <td>Logo on club website</td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+    </tr>
+    <tr>
+      <td>Dedicated social media post</td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+    </tr>
+    <tr>
+      <td>Re-posting of your social media</td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+    </tr>
+    <tr>
+      <td>Logo on ANZAC Day guernsey</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+    </tr>
+    <tr>
+      <td>ANZAC Day Award presentation</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+    </tr>
+    <tr>
+      <td>Tickets to exclusive AFL events</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+    </tr>
+    <tr>
+      <td>Free club polo</td>
+      <td></td>
+      <td class="tick">1</td>
+      <td class="tick">1</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+    </tr>
+    <tr>
+      <td>Free club hoodie</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+    </tr>
+    <tr>
+      <td>MKFC apparel items</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="tick">2</td>
+    </tr>
+    <tr>
+      <td>Tickets to Season Launch</td>
+      <td></td>
+      <td></td>
+      <td class="tick">2</td>
+      <td class="tick">4</td>
+      <td class="tick">4</td>
+    </tr>
+    <tr>
+      <td>Tickets to Sponsors Day</td>
+      <td></td>
+      <td class="tick">2</td>
+      <td class="tick">2</td>
+      <td class="tick">4</td>
+      <td class="tick">4</td>
+    </tr>
+    <tr>
+      <td>Tickets to Presentation Night</td>
+      <td></td>
+      <td class="tick">2</td>
+      <td></td>
+      <td></td>
+      <td class="tick">4</td>
+    </tr>
+    <tr>
+      <td>Tickets to major cash draw</td>
+      <td></td>
+      <td class="tick">2</td>
+      <td class="tick">4</td>
+      <td></td>
+      <td class="tick">4</td>
+    </tr>
+    <tr>
+      <td>Full social memberships</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td class="tick">4</td>
+    </tr>
+    <tr>
+      <td>Free entry to all home &amp; away games</td>
+      <td></td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+    </tr>
+    <tr>
+      <td>Discounted tickets to club events</td>
+      <td></td>
+      <td></td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+      <td class="tick">&#10003;</td>
+    </tr>
+  </tbody>
+</table>
+
+<!-- ======================== TIER DETAILS ======================== -->
+<div class="page-break"></div>
+<h1>Partnership Options &mdash; Details</h1>
+
+<div class="tier-card">
+  <h2>ANZAC Day Partner <span class="tier-price">$5,000</span></h2>
+  <p>Our premier partnership &mdash; your brand takes centre stage on the ANZAC Day guernsey and you present the prestigious ANZAC Day Award.</p>
+  <ul>
+    <li>Your logo on the 2026 ANZAC Day guernsey</li>
+    <li>Presentation of the ANZAC Day Award</li>
+    <li>Ground signage/banner displayed at all home games year-round</li>
+    <li>Brand/logo recognition in Social Club Pavilion</li>
+    <li>Logo on club website with link to your business</li>
+    <li>Regular Facebook posts about your business</li>
+    <li>Re-posting of your company social media content</li>
+    <li>Tickets to exclusive AFL events</li>
+    <li>Full social membership for up to 4 persons</li>
+    <li>4&times; tickets to the major cash draw</li>
+    <li>4&times; tickets to Season Launch</li>
+    <li>4&times; tickets to Sponsors Day at a home game</li>
+    <li>4&times; tickets to Presentation Night</li>
+    <li>2&times; items of MKFC apparel</li>
+    <li>Free club hoodie and polo</li>
+    <li>Free entry to all home &amp; away games</li>
+    <li>Discounted tickets to club events</li>
+  </ul>
+</div>
+
+<div class="tier-card">
+  <h2>Grand Partner <span class="tier-price">$3,500</span></h2>
+  <p>A premium partnership with extensive brand exposure, hospitality, and exclusive AFL event access.</p>
+  <ul>
+    <li>Logo on sponsors wall in club rooms</li>
+    <li>Fence banner at all home games</li>
+    <li>Logo on club website with link to your business</li>
+    <li>Dedicated social media post about your company</li>
+    <li>Re-posting of your company social media content</li>
+    <li>Tickets to exclusive AFL events</li>
+    <li>4&times; tickets to Season Launch</li>
+    <li>4&times; tickets to Sponsors Day at a home game</li>
+    <li>Free club hoodie and polo</li>
+    <li>Free entry to all home &amp; away games</li>
+    <li>Discounted tickets to club events</li>
+  </ul>
+</div>
+
+<div class="tier-card">
+  <h2>Major Partner <span class="tier-price">$2,000</span></h2>
+  <p>A comprehensive package with strong visibility, a personal player sponsorship, and match day hospitality.</p>
+  <ul>
+    <li>1&times; personal player sponsored with their subs paid</li>
+    <li>Logo on sponsors wall in club rooms</li>
+    <li>Banner with your logo and branding at every home game</li>
+    <li>Logo on club website with link to your business</li>
+    <li>Dedicated social media post about your company</li>
+    <li>Re-posting of your company social media content</li>
+    <li>2&times; tickets to Season Launch</li>
+    <li>2&times; tickets to Sponsors Day at a home game</li>
+    <li>4&times; tickets to the major cash draw</li>
+    <li>Free club polo</li>
+    <li>Free entry to all home &amp; away games</li>
+    <li>Discounted tickets to club events</li>
+  </ul>
+</div>
+
+<div class="page-break"></div>
+
+<div class="tier-card">
+  <h2>Club Roo Partner <span class="tier-price">$1,000</span></h2>
+  <p>A great entry-level partnership with genuine visibility and hospitality benefits.</p>
+  <ul>
+    <li>Logo on sponsors wall in club rooms</li>
+    <li>Banner with your logo and branding at every home game</li>
+    <li>Logo on club website with link to your business</li>
+    <li>Dedicated social media post about your company</li>
+    <li>Re-posting of your company social media content</li>
+    <li>2&times; tickets to Sponsors Day at a home game</li>
+    <li>2&times; tickets to Presentation Night</li>
+    <li>2&times; tickets to the major cash draw</li>
+    <li>Free club polo</li>
+  </ul>
+</div>
+
+<div class="tier-card">
+  <h2>Player Sponsor <span class="tier-price">$500</span></h2>
+  <p>Sponsor an individual player and have your business name linked to them throughout the season.</p>
+  <ul>
+    <li>One player sponsored through your business</li>
+    <li>Player profile on website features your business name</li>
+    <li>Recognition on social media when your player wins awards</li>
+  </ul>
+  <p style="margin-top:10px;"><strong>Player Sponsor + Banner &mdash; $1,000:</strong> Includes all of the above plus a banner promoting your business at every home game.</p>
+</div>
+
+<hr class="accent-bar">
+
+<!-- ======================== CUSTOM PACKAGES ======================== -->
+<h1>Tailored Packages</h1>
+
+<p>If the options in this guide don't quite suit your business, we'd love to work with you to create a partnership that does. We're flexible and happy to tailor a package to meet your needs and budget.</p>
+
+<div class="highlight-box">
+  We also welcome <strong>in-kind sponsorships</strong> &mdash; goods or services that support our players and club operations (e.g. physiotherapy, sports equipment, catering, printing). Get in touch to discuss how we can work together.
+</div>
+
+<!-- ======================== CURRENT PARTNERS ======================== -->
+<div class="page-break"></div>
+<h1>Our Current Partners</h1>
+
+<p>We are proud to be supported by the following businesses in 2026:</p>
+
+<div class="sponsor-logos">
+  <a href="https://www.coinport.com.au/"><img src="../assets/img/logo_square_400x400.png" alt="CoinPort Exchange"></a>
+  <a href="https://www.macktow.com.au/"><img src="../assets/img/macktow.png" alt="Macktow"></a>
+  <a href="https://www.kfc.com.au/restaurants/kfc-southland-mall/3192"><img src="../assets/img/kfc.svg" alt="KFC - Southland"></a>
+  <a href="https://youleysgspc.com.au/"><img src="../assets/img/Youleys.png" alt="Youle Garden Supplies"></a>
+</div>
+
+<table>
+  <thead>
+    <tr><th>Partner</th><th>Website</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CoinPort Exchange</td><td><a href="https://www.coinport.com.au/">coinport.com.au</a></td></tr>
+    <tr><td>Macktow</td><td><a href="https://www.macktow.com.au/">macktow.com.au</a></td></tr>
+    <tr><td>Cyptochat</td><td></td></tr>
+    <tr><td>Community Bank &ndash; Highett</td><td><a href="https://www.bendigobank.com.au/branch/vic/community-bank-highett/">bendigobank.com.au</a></td></tr>
+    <tr><td>KFC &ndash; Southland</td><td><a href="https://www.kfc.com.au/restaurants/kfc-southland-mall/3192">kfc.com.au</a></td></tr>
+    <tr><td>Bentleigh RSL</td><td><a href="https://bentleighrsl.com.au/">bentleighrsl.com.au</a></td></tr>
+    <tr><td>Youle Garden Supplies</td><td><a href="https://youleysgspc.com.au/">youleysgspc.com.au</a></td></tr>
+    <tr><td>Catalog Clothing</td><td><a href="https://www.catalogclothing.com.au/">catalogclothing.com.au</a></td></tr>
+    <tr><td>TGI Fridays</td><td><a href="https://www.tgifridays.com.au/">tgifridays.com.au</a></td></tr>
+  </tbody>
+</table>
+
+<hr class="accent-bar">
+
+<!-- ======================== CONTACT ======================== -->
+<h1>Get in Touch</h1>
+
+<p>We'd love to hear from you. To discuss partnership opportunities or to arrange a visit to the club, please contact:</p>
+
+<table>
+  <tbody>
+    <tr><td><strong>Muhammad Kiki</strong></td><td>Operations Manager</td></tr>
+    <tr><td>Phone</td><td>0419 904 242</td></tr>
+    <tr><td>Email</td><td><a href="mailto:presidentmkfc@gmail.com">presidentmkfc@gmail.com</a></td></tr>
+  </tbody>
+</table>
+
+<p style="margin-top:12px;">General enquiries: <a href="mailto:info@mkfc.org.au">info@mkfc.org.au</a></p>
+
+<h2>Bank Details</h2>
+<table>
+  <tbody>
+    <tr><td><strong>Account Name</strong></td><td>Moorabbin Kangaroos Football Club</td></tr>
+    <tr><td><strong>BSB</strong></td><td>633000</td></tr>
+    <tr><td><strong>Account</strong></td><td>138777024</td></tr>
+  </tbody>
+</table>
+
+<p><strong>Ground Address:</strong><br>
+Widdop Crescent Oval<br>
+41 Widdop Crescent<br>
+Hampton East VIC 3188</p>
+
+<p><strong>Website:</strong> <a href="https://www.mkfc.org.au">www.mkfc.org.au</a></p>
+
+<hr class="accent-bar">
+
+<p style="text-align:center; font-style:italic; font-size:14pt; color:#01285e; margin-top:30px; font-weight:700;">Support a local club that provides great outcomes to our community.</p>
+
+<div class="page-footer">
+  Moorabbin Kangaroos Football Club &bull; www.mkfc.org.au &bull; Season 2026
+</div>
+
+</body>
+</html>
