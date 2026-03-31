@@ -50,7 +50,9 @@
       "WebFetch(domain:www.heathertonfc.com.au)",
       "WebFetch(domain:caseythunderfc.com)",
       "Bash(ls \"/c/Program Files/Google/Chrome/Application/chrome.exe\" \"/c/Program Files \\(x86\\)/Google/Chrome/Application/chrome.exe\" \"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\" \"/c/Program Files/Microsoft/Edge/Application/msedge.exe\")",
-      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --print-to-pdf=\"C:/storage/git/mkfc.github.io/sponsors/sponsor-pack.pdf\" --no-margins \"file:///C:/storage/git/mkfc.github.io/sponsors/sponsor-pack.html\" 2>&1)"
+      "Bash(\"/c/Program Files/Google/Chrome/Application/chrome.exe\" --headless --disable-gpu --print-to-pdf=\"C:/storage/git/mkfc.github.io/sponsors/sponsor-pack.pdf\" --no-margins \"file:///C:/storage/git/mkfc.github.io/sponsors/sponsor-pack.html\" 2>&1)",
+      "Bash(ls \"/c/Program Files \\(x86\\)/Google/Chrome/Application/chrome.exe\")",
+      "Bash(\"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\" --headless --disable-gpu --print-to-pdf=\"C:/storage/git/mkfc.github.io/welcome/welcome-pack.pdf\" --no-pdf-header-footer \"file:///C:/storage/git/mkfc.github.io/welcome/welcome-pack.html\" 2>&1)"
     ]
   }
 }

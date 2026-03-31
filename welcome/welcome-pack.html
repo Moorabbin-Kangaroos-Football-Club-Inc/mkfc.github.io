@@ -26,8 +26,8 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: #01285e;
-    color: #fff;
+    background: transparent;
+    color: #01285e;
     text-align: center;
     margin: -18mm -20mm 0 -20mm;
     padding: 40mm 30mm;
@@ -43,27 +43,27 @@
     letter-spacing: 1px;
     margin-bottom: 10px;
     text-transform: uppercase;
-    color: #fff;
+    color: #01285e;
     border-bottom: none;
   }
   .cover-page h2 {
     font-size: 18pt;
     font-weight: 400;
-    color: #C4D1E5;
+    color: #01285e;
     margin-bottom: 30px;
   }
   .cover-page .season {
     font-size: 16pt;
     font-weight: 700;
-    color: #C4D1E5;
+    color: #01285e;
     margin-bottom: 8px;
   }
   .cover-page .detail {
     font-size: 12pt;
-    color: #ccc;
+    color: #444;
     margin-bottom: 4px;
   }
-  .cover-page .detail a { color: #C4D1E5; text-decoration: none; }
+  .cover-page .detail a { color: #01285e; text-decoration: none; }
 
   /* --- Section headings --- */
   h1, h2, h3 {
@@ -145,7 +145,7 @@
   .colour-swatches {
     display: flex;
     gap: 16px;
-    margin: 10px 0 14px 0;
+    margin: 6px 0 8px 0;
   }
   .swatch {
     width: 80px;
@@ -153,7 +153,7 @@
   }
   .swatch-box {
     width: 80px;
-    height: 50px;
+    height: 30px;
     border-radius: 6px;
     border: 1px solid #ccc;
     margin-bottom: 4px;
@@ -214,8 +214,8 @@
 <div class="cover-page">
   <img src="../logo.jpg" alt="Moorabbin Kangaroos FC Logo">
   <h1>Moorabbin Kangaroos<br>Football Club</h1>
-  <h2>New Player Welcome Pack</h2>
-  <p class="season">Season 2026</p>
+  <h1>New Player Welcome Pack</h1>
+  <h2>Season 2026</h2>
   <p class="detail">Widdop Crescent Oval, Hampton East</p>
   <p class="detail"><a href="https://www.mkfc.org.au">www.mkfc.org.au</a></p>
 </div>
@@ -233,56 +233,6 @@
 </ol>
 
 <p>We welcome players of all experience levels. Come down, get involved, and be part of something great.</p>
-
-<hr class="accent-bar">
-
-<!-- ======================== HISTORY ======================== -->
-<h1>Club History</h1>
-
-<p>The Moorabbin Kangaroos Football Club was established in <strong>1965</strong> by a group of local football enthusiasts who wanted to create a community-focused club in the Moorabbin area.</p>
-
-<h2>Key Milestones</h2>
-<ul>
-  <li><strong>1965</strong> &mdash; Club founded</li>
-  <li><strong>1972</strong> &mdash; First Division 2 Premiership</li>
-  <li><strong>1978</strong> &mdash; Moved to our current home ground at Widdop Crescent</li>
-  <li><strong>1985</strong> &mdash; Club record attendance of 2,500 for Grand Final</li>
-  <li><strong>2005</strong> &mdash; Celebrated 40th anniversary</li>
-  <li><strong>2012</strong> &mdash; Joined the Southern Football Netball League</li>
-  <li><strong>2020</strong> &mdash; Survived COVID-19 challenges with strong membership</li>
-</ul>
-
-<h2>Premierships</h2>
-<ul>
-  <li><strong>Division 2:</strong> 1972, 1985, 1998</li>
-  <li><strong>Division 3:</strong> 2007</li>
-  <li><strong>Reserves:</strong> 2015</li>
-</ul>
-
-<hr class="accent-bar">
-
-<!-- ======================== COLOURS ======================== -->
-<h1>Our Club Colours</h1>
-
-<p>The Moorabbin Kangaroos proudly wear <strong>Deep Navy Blue</strong>, <strong>White</strong>, and <strong>Light Blue</strong> &mdash; inspired by the AFL's North Melbourne Kangaroos.</p>
-
-<div class="colour-swatches">
-  <div class="swatch">
-    <div class="swatch-box" style="background:#01285e;"></div>
-    <div class="swatch-label">Deep Navy Blue</div>
-    <div class="swatch-hex">#01285e</div>
-  </div>
-  <div class="swatch">
-    <div class="swatch-box" style="background:#FFFFFF; border: 2px solid #ccc;"></div>
-    <div class="swatch-label">White</div>
-    <div class="swatch-hex">#FFFFFF</div>
-  </div>
-  <div class="swatch">
-    <div class="swatch-box" style="background:#C4D1E5;"></div>
-    <div class="swatch-label">Light Blue</div>
-    <div class="swatch-hex">#C4D1E5</div>
-  </div>
-</div>
 
 <hr class="accent-bar">
 
@@ -396,14 +346,19 @@
 <!-- ======================== CONTACT ======================== -->
 <h1>Contact Details</h1>
 
-<p><strong>Email:</strong> <a href="mailto:info@mkfc.org.au">info@mkfc.org.au</a></p>
-
-<p><strong>Ground Address:</strong><br>
-Widdop Crescent Oval<br>
-41 Widdop Crescent<br>
-Hampton East VIC 3188</p>
-
-<p><strong>Website:</strong> <a href="https://www.mkfc.org.au">www.mkfc.org.au</a></p>
+<div style="display:flex; gap:40px;">
+  <div style="flex:1;">
+    <h2>Ground Address</h2>
+    <p>Widdop Crescent Oval<br>
+    41 Widdop Crescent<br>
+    Hampton East VIC 3188</p>
+  </div>
+  <div style="flex:1;">
+    <h2>Online</h2>
+    <p><strong>Email:</strong> <a href="mailto:info@mkfc.org.au">info@mkfc.org.au</a><br>
+    <strong>Website:</strong> <a href="https://www.mkfc.org.au">www.mkfc.org.au</a></p>
+  </div>
+</div>
 
 <hr class="accent-bar">
 
@@ -420,8 +375,82 @@ Hampton East VIC 3188</p>
 
 <hr class="accent-bar">
 
-<!-- ======================== CLUB SONG ======================== -->
+<!-- ======================== COLOURS ======================== -->
+<h1>Our Club Colours</h1>
+
+<div style="display:flex; gap:30px; align-items:flex-start;">
+  <div style="flex:1;">
+    <p>We proudly wear <strong>Navy Blue</strong>, <strong>White</strong>, and <strong>Light Blue</strong> &mdash; inspired by the AFL North Melbourne Kangaroos.</p>
+  </div>
+  <div style="flex:0 0 auto;">
+    <div class="colour-swatches">
+      <div class="swatch">
+        <div class="swatch-box" style="background:#01285e;"></div>
+        <div class="swatch-label">Navy Blue</div>
+        <div class="swatch-hex">#01285e</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-box" style="background:#FFFFFF; border: 2px solid #ccc;"></div>
+        <div class="swatch-label">White</div>
+        <div class="swatch-hex">#FFFFFF</div>
+      </div>
+      <div class="swatch">
+        <div class="swatch-box" style="background:#C4D1E5;"></div>
+        <div class="swatch-label">Light Blue</div>
+        <div class="swatch-hex">#C4D1E5</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="accent-bar">
+
+<!-- ======================== HISTORY ======================== -->
 <div class="page-break"></div>
+<h1>Club History</h1>
+
+<p>The Moorabbin Kangaroos Football Club, now playing at Widdop Crescent in Hampton East, has a history distinct from the earlier VFL club of the same name. The club is the product of a 1970s merger and, after a turbulent period in the 1980s, has established itself as a resilient community club within the Southern Football Netball League.</p>
+
+<h2>Origins: The Merger of Two Rivals</h2>
+
+<p>The modern Moorabbin Kangaroos were formed in <strong>1978</strong> through the merger of two neighbouring clubs from the Federal Football League (FFL):</p>
+<ul>
+  <li><strong>McKinnon Football Club</strong></li>
+  <li><strong>Bentleigh Football Club</strong></li>
+</ul>
+
+<p>The new amalgamated club adopted the name, royal blue and white colours, and &ldquo;Kangaroos&rdquo; nickname of the original, successful Moorabbin club that had disbanded in 1965. Initially competing in the FFL until its collapse in 1981, the club moved to the South East Suburban Football League (the precursor to today&rsquo;s SFNL) for the 1982 season.</p>
+
+<h2>The VFA Years and Collapse (1983&ndash;1987)</h2>
+
+<p>Seeking a higher standard of competition, the club was admitted to the Victorian Football Association (VFA) in 1983, initially playing under the name <strong>Moorabbin West</strong>.</p>
+
+<p>The club competed in the VFA&rsquo;s second division for four seasons, with its best year coming in <strong>1985</strong> after recruiting champion goalkicker <strong>Fred Cook</strong>. However, the club narrowly missed the finals that year.</p>
+
+<p>The Moorabbin VFA side met a sudden and dramatic end in <strong>1987</strong>. After just two matches, coach Graham Stewart resigned following a dispute with the club board, leading to a mass walkout of players. Unable to field a team, the club was suspended by the VFA and subsequently folded mid-season.</p>
+
+<h2>Rebirth and a New Home in the SFNL</h2>
+
+<p>Following the VFA side&rsquo;s collapse, <strong>Geoff Burke</strong> was the catalyst for the club&rsquo;s rebirth. Widely regarded as the father of the modern Moorabbin Kangaroos, Burke served as club President for several years and was instrumental in re-forming the club and securing its permanent home in the Southern Football League. By the early 1990s, the club had settled at its current ground, <strong>A.W. Oliver Reserve on Widdop Crescent in Hampton East</strong>, and officially changed its name to the <strong>Moorabbin Kangaroos</strong> in 2003.</p>
+
+<p>This era has been defined by the club&rsquo;s success on the field and its resilience off it. The Kangaroos have won <strong>three senior premierships</strong> in the Southern Football Netball League (SFNL):</p>
+<ul>
+  <li><strong>1993</strong> &mdash; Division 5 Premiers</li>
+  <li><strong>2005</strong> &mdash; Division 3 Premiers</li>
+  <li><strong>2012</strong> &mdash; Division 3 Premiers</li>
+</ul>
+
+<h2>A Legacy of Community Resilience</h2>
+
+<p>The club&rsquo;s history in the SFNL is notable not just for its premierships, but for its survival against the odds. A central figure in this story is <strong>Margaret Torpy</strong>, who joined the then-Moorabbin West club in 1987 and has served in countless official roles, including secretary and treasurer, for decades.</p>
+
+<p>In recognition of her efforts, Torpy was the <strong>first woman inducted into the SFNL Hall of Fame</strong>. She was instrumental in saving the club from folding on two separate occasions &mdash; first in 2009 and again in 2015 &mdash; by forming new committees to steer the club forward.</p>
+
+<p>Today, the Moorabbin Kangaroos continue to be a vibrant part of the Hampton East community, fielding senior and reserve teams and hosting community events at Widdop Crescent, such as their annual Indigenous Game.</p>
+
+<hr class="accent-bar">
+
+<!-- ======================== CLUB SONG ======================== -->
 <h1>Club Song</h1>
 
 <blockquote>
@@ -440,7 +469,6 @@ Hampton East VIC 3188</p>
 </blockquote>
 
 <!-- ======================== CODE OF CONDUCT ======================== -->
-<div class="page-break"></div>
 <h1>Code of Conduct</h1>
 
 <p>As a member of the Moorabbin Kangaroos Football Club, you are expected to:</p>
@@ -577,19 +605,13 @@ Hampton East VIC 3188</p>
 <h2>Consent &amp; Declaration</h2>
 <ul class="checkbox-list">
   <li>I agree to abide by the club's Code of Conduct</li>
-  <li>I consent to photographs and videos being taken during club activities for use on the club's website and social media</li>
+  <li>I consent to photographs and videos being taken for use on the club's website and social media</li>
   <li>I understand that playing Australian rules football carries inherent risk of injury</li>
 </ul>
 
 <p class="signature-line">Signature: ______________________________ &nbsp;&nbsp;&nbsp; Date: _______________</p>
 
 <hr class="accent-bar">
-
-<p style="text-align:center; font-style:italic; font-size:14pt; color:#01285e; margin-top:30px; font-weight:700;">Go Roos!</p>
-
-<div class="page-footer">
-  Moorabbin Kangaroos Football Club &bull; www.mkfc.org.au &bull; Season 2026
-</div>
 
 </body>
 </html>

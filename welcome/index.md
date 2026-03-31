@@ -32,38 +32,6 @@ We welcome players of all experience levels. Come down, get involved, and be par
 
 ---
 
-## Club History
-
-The Moorabbin Kangaroos Football Club was established in **1965** by a group of local football enthusiasts who wanted to create a community-focused club in the Moorabbin area.
-
-### Key Milestones
-
-- **1965** — Club founded
-- **1972** — First Division 2 Premiership
-- **1978** — Moved to our current home ground at Widdop Crescent
-- **1985** — Club record attendance of 2,500 for Grand Final
-- **2005** — Celebrated 40th anniversary
-- **2012** — Joined the Southern Football Netball League
-- **2020** — Survived COVID-19 challenges with strong membership
-
-### Premierships
-
-- **Division 2:** 1972, 1985, 1998
-- **Division 3:** 2007
-- **Reserves:** 2015
-
----
-
-## Our Club Colours
-
-The Moorabbin Kangaroos proudly wear **Deep Navy Blue**, **White**, and **Light Blue** — inspired by the AFL's North Melbourne Kangaroos.
-
-- **Deep Navy Blue** (Primary) — #01285e
-- **White** (Primary)
-- **Light Blue** (Secondary) — #C4D1E5
-
----
-
 ## The Southern Football and Netball League (SFNL)
 
 The SFNL is one of Melbourne's largest community football and netball leagues, covering the south-eastern suburbs. The league runs multiple divisions across senior football, reserves, under-age, and women's competitions.
@@ -170,15 +138,23 @@ Registration fees cover your SFNL player registration, insurance, and club membe
 
 ## Contact Details
 
-**Email:** [info@mkfc.org.au](mailto:info@mkfc.org.au)
+<div style="display:flex; gap:40px;">
+<div>
 
-**Ground Address:**
-Widdop Crescent Oval
-41 Widdop Crescent
+**Ground Address:**<br>
+Widdop Crescent Oval<br>
+41 Widdop Crescent<br>
 Hampton East VIC 3188
+
+</div>
+<div>
+
+**Email:** [info@mkfc.org.au](mailto:info@mkfc.org.au)<br>
+**Website:** [www.mkfc.org.au](https://www.mkfc.org.au)<br>
 [View on Google Maps](https://maps.app.goo.gl/EqwponkRzfhLmvSZ6)
 
-**Website:** [www.mkfc.org.au](https://www.mkfc.org.au)
+</div>
+</div>
 
 ---
 
@@ -189,6 +165,57 @@ Follow us to stay up to date with news, results, and events:
 - **Facebook:** [facebook.com/MoorabbinKangaroos](https://www.facebook.com/MoorabbinKangaroos)
 - **Instagram:** [instagram.com/moorabbinroos](https://instagram.com/moorabbinroos)
 - **Twitter:** [twitter.com/moorabbinroos](https://twitter.com/moorabbinroos)
+
+---
+
+## Our Club Colours
+
+The Moorabbin Kangaroos proudly wear **Deep Navy Blue**, **White**, and **Light Blue** — inspired by the AFL's North Melbourne Kangaroos.
+
+- **Deep Navy Blue** (Primary) — #01285e
+- **White** (Primary)
+- **Light Blue** (Secondary) — #C4D1E5
+
+---
+
+## Club History
+
+The Moorabbin Kangaroos Football Club, now playing at Widdop Crescent in Hampton East, has a history distinct from the earlier VFL club of the same name. The club is the product of a 1970s merger and, after a turbulent period in the 1980s, has established itself as a resilient community club within the Southern Football Netball League.
+
+### Origins: The Merger of Two Rivals
+
+The modern Moorabbin Kangaroos were formed in **1978** through the merger of two neighbouring clubs from the Federal Football League (FFL):
+
+- **McKinnon Football Club**
+- **Bentleigh Football Club**
+
+The new amalgamated club adopted the name, royal blue and white colours, and "Kangaroos" nickname of the original, successful Moorabbin club that had disbanded in 1965. Initially competing in the FFL until its collapse in 1981, the club moved to the South East Suburban Football League (the precursor to today's SFNL) for the 1982 season.
+
+### The VFA Years and Collapse (1983–1987)
+
+Seeking a higher standard of competition, the club was admitted to the Victorian Football Association (VFA) in 1983, initially playing under the name **Moorabbin West**.
+
+The club competed in the VFA's second division for four seasons, with its best year coming in **1985** after recruiting champion goalkicker **Fred Cook**. However, the club narrowly missed the finals that year.
+
+The Moorabbin VFA side met a sudden and dramatic end in **1987**. After just two matches, coach Graham Stewart resigned following a dispute with the club board, leading to a mass walkout of players. Unable to field a team, the club was suspended by the VFA and subsequently folded mid-season.
+
+### Rebirth and a New Home in the SFNL
+
+Following the VFA side's collapse, **Geoff Burke** was the catalyst for the club's rebirth. Widely regarded as the father of the modern Moorabbin Kangaroos, Burke served as club President for several years and was instrumental in re-forming the club and securing its permanent home in the Southern Football League. By the early 1990s, the club had settled at its current ground, **A.W. Oliver Reserve on Widdop Crescent in Hampton East**, and officially changed its name to the **Moorabbin Kangaroos** in 2003.
+
+This era has been defined by the club's success on the field and its resilience off it. The Kangaroos have won **three senior premierships** in the Southern Football Netball League (SFNL):
+
+- **1993** — Division 5 Premiers
+- **2005** — Division 3 Premiers
+- **2012** — Division 3 Premiers
+
+### A Legacy of Community Resilience
+
+The club's history in the SFNL is notable not just for its premierships, but for its survival against the odds. A central figure in this story is **Margaret Torpy**, who joined the then-Moorabbin West club in 1987 and has served in countless official roles, including secretary and treasurer, for decades.
+
+In recognition of her efforts, Torpy was the **first woman inducted into the SFNL Hall of Fame**. She was instrumental in saving the club from folding on two separate occasions — first in 2009 and again in 2015 — by forming new committees to steer the club forward.
+
+Today, the Moorabbin Kangaroos continue to be a vibrant part of the Hampton East community, fielding senior and reserve teams and hosting community events at Widdop Crescent, such as their annual Indigenous Game.
 
 ---
 
