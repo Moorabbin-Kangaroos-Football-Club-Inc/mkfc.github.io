@@ -79,5 +79,4 @@ exclude:
   - README.md
   - screenshot.png
   - docs/
-  - branding.md
   - CLAUDE.md

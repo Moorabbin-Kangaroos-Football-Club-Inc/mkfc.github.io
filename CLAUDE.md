@@ -31,9 +31,10 @@ Navigation is defined in `_config.yml` under `header_pages` and maps to:
 | Route | File |
 |-------|------|
 | Home | `index.md` |
-| History | `history/index.md` |
+| About | `about/index.md` |
 | News | `news/index.md` |
 | Players | `players/index.md` |
+| Gallery | `gallery/index.md` |
 | Sponsors | `sponsors/index.md` |
 | Calendar | `calendar/index.md` |
 | Contact | `contact/index.md` |
@@ -42,12 +43,15 @@ Static assets (logos, favicons, images) live at the repo root and in `assets/`. 
 
 ## Configuration Notes
 
-`_config.yml` contains legacy configuration from a previous "Epsom Software" / "Beautiful Jekyll" theme that is partially overridden. The active theme is **minima**, but the config still includes Beautiful Jekyll-specific settings (social links, colour variables, background images) that may not all take effect under minima. Key active settings:
+`_config.yml` key settings:
 
 - `theme: minima`
 - Plugins: jekyll-feed, jekyll-seo-tag, jekyll-paginate, jekyll-sitemap, jekyll-github-metadata
-- Custom navbar/footer/page background images configured at the bottom of the file
+- Navigation order: `header_pages`
+- Social links: `minima.social_links` (footer) and `social.links` (SEO/structured data)
+
+Custom styling lives in `assets/main.scss`, which overrides Minima's `$brand-color` before importing the theme. SEO/JSON-LD structured data is in `_includes/custom-head.html`.
 
 ## Branding
 
-`branding.md` contains North Melbourne Kangaroos (AFL) brand guidelines used as reference for the club's visual identity — colours (Deep Navy Blue #01285e, White, Light Blue #C4D1E5) and typography (DIN / Helvetica Neue family).
+`branding/index.md` is the canonical brand guide (served at `/branding/`). It documents the colour palette (Deep Navy `#01285E`, White, Light Blue `#C4D1E5`) and typography (DIN / Helvetica Neue family). When changing site styling, align with this doc — the SCSS variables in `assets/main.scss` (`$mkfc-blue`, `$mkfc-light-blue`) mirror it.

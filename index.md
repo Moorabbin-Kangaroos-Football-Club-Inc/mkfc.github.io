@@ -16,20 +16,27 @@ description: "Moorabbin Kangaroos Football Club — SFNL Division 4, Hampton Eas
   </div>
 </div>
 
-<div class="info-cards">
-  <div class="info-card">
-    <h3>Training</h3>
-    <p><strong>Tuesday &amp; Thursday</strong><br>6:00pm - 8:00pm<br>Widdop Crescent Oval, Hampton East</p>
+<section class="section section-light">
+  <div class="section-inner">
+    <div class="info-cards">
+      <div class="info-card">
+        <h3>Training</h3>
+        <p><strong>Tuesday &amp; Thursday</strong><br>6:00pm - 8:00pm<br>Widdop Crescent Oval, Hampton East</p>
+      </div>
+      <div class="info-card">
+        <h3>Find Us</h3>
+        <p>Widdop Crescent Oval<br>41 Widdop Crescent<br>Hampton East 3188<br><a href="https://maps.app.goo.gl/EqwponkRzfhLmvSZ6">View on Google Maps</a></p>
+      </div>
+      <div class="info-card">
+        <h3>Season 2026</h3>
+        <p>Two teams competing in SFNL Division 4<br><a href="/calendar/">View Fixtures</a></p>
+      </div>
+    </div>
   </div>
-  <div class="info-card">
-    <h3>Find Us</h3>
-    <p>Widdop Crescent Oval<br>41 Widdop Crescent<br>Hampton East 3188<br><a href="https://maps.app.goo.gl/EqwponkRzfhLmvSZ6">View on Google Maps</a></p>
-  </div>
-  <div class="info-card">
-    <h3>Season 2026</h3>
-    <p>Two teams competing in SFNL Division 4<br><a href="/calendar/">View Fixtures</a></p>
-  </div>
-</div>
+</section>
+
+<section class="section section-navy" markdown="1">
+<div class="section-inner" markdown="1">
 
 ## About Our Club
 
@@ -42,9 +49,18 @@ We currently field two teams in the **Southern Football and Netball League**:
 
 We welcome players of all experience levels — [find out more about joining](/welcome/).
 
+</div>
+</section>
+
+<section class="section section-light" markdown="1">
+<div class="section-inner" markdown="1">
+
 ## Quick Links
 
 - [Our Sponsors](/sponsors)
 - [Latest News](/news)
 - [Club History](/about/#club-history)
 - [Club Documents](/documents/)
+
+</div>
+</section>
