@@ -55,7 +55,11 @@
       "Bash(\"/c/Program Files \\(x86\\)/Microsoft/Edge/Application/msedge.exe\" --headless --disable-gpu --print-to-pdf=\"C:/storage/git/mkfc.github.io/welcome/welcome-pack.pdf\" --no-pdf-header-footer \"file:///C:/storage/git/mkfc.github.io/welcome/welcome-pack.html\" 2>&1)",
       "Bash(jekyll --version)",
       "Bash(bundle exec *)",
-      "Bash(file /home/peter/mkfc.github.io/assets/img/Make-It-Happen*.avif)"
+      "Bash(file /home/peter/mkfc.github.io/assets/img/Make-It-Happen*.avif)",
+      "Bash(python3 -c \"from PIL import Image; print\\(Image.__version__\\)\")",
+      "Bash(pip install *)",
+      "Bash(python3 *)",
+      "Bash(fc-list)"
     ]
   }
 }
