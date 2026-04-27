@@ -1,14 +1,37 @@
 # Site settings
 title: Moorabbin Kangaroos Football Club
 email: media@mkfc.org.au
-description: Official site of the Moorabbin Kangaroos FC
+description: Official site of the Moorabbin Kangaroos Football Club — SFNL Division 4 community Australian rules football club based at Widdop Crescent Oval, Hampton East.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.mkfc.org.au" # the base hostname & protocol for your site, e.g. http://example.com
 
+lang: en-AU
+locale: en_AU
+
 avatar: "/favicon.png"
+logo: /mkfc-logo-large.png
 
 # Your name to show in the footer
 author: Moorabbin Kangaroos
+
+# Social / SEO metadata (used by jekyll-seo-tag)
+twitter:
+  username: moorabbinroos
+  card: summary_large_image
+
+social:
+  name: Moorabbin Kangaroos Football Club
+  links:
+    - https://www.facebook.com/MoorabbinKangaroos
+    - https://instagram.com/moorabbinroos
+    - https://twitter.com/moorabbinroos
+
+# Footer social links (minima)
+minima:
+  social_links:
+    - { platform: facebook, user_url: "https://www.facebook.com/MoorabbinKangaroos" }
+    - { platform: instagram, user_url: "https://instagram.com/moorabbinroos" }
+    - { platform: twitter, user_url: "https://twitter.com/moorabbinroos" }
 
 # Build settings
 theme: minima

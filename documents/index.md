@@ -12,4 +12,4 @@ description: "Moorabbin Kangaroos FC official documents — constitution, strate
 - [Welcome Sheet](/documents/Moorabbin-Kangaroos-Welcome-Sheet.pdf)
 - [ABN Details](/documents/MKFC_ABN.pdf)
 - [Trainer Position 2025](/documents/MOORABBIN-KANGAROOS-FOOTBALL-CLUB-TRAINER-POSITION-2025.pdf)
-- [Branding Guidelines](/documents/branding)
+- [Branding Guidelines](/branding/)
