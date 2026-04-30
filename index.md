@@ -16,8 +16,35 @@ description: "Moorabbin Kangaroos Football Club — SFNL Division 4, Hampton Eas
   </div>
 </div>
 
+{% assign today = "now" | date: "%Y-%m-%d" %}
+{% assign next_match = nil %}
+{% for game in site.data.fixtures.games %}
+  {% assign game_date = game.date | date: "%Y-%m-%d" %}
+  {% if game_date >= today and next_match == nil %}
+    {% assign next_match = game %}
+  {% endif %}
+{% endfor %}
+
 <section class="section section-light">
   <div class="section-inner">
+    {% if next_match %}
+    <div class="next-match-card">
+      <span class="next-match-label">Next Match</span>
+      <p class="next-match-meta">Round {{ next_match.round }} &middot; {{ next_match.date | date: "%a %-d %b" }}</p>
+      <p class="next-match-teams">
+        <span class="next-match-mkfc">MKFC</span>
+        <span class="next-match-vs">vs</span>
+        <span class="next-match-opponent">{{ next_match.opponent }}</span>
+      </p>
+      <p class="next-match-tag-row"><span class="next-match-tag next-match-tag-{{ next_match.home_away | downcase }}">{{ next_match.home_away | upcase }}</span></p>
+      <p class="next-match-venue">{{ next_match.venue }}</p>
+      <p class="next-match-times">Reserves 12:00pm &middot; Seniors 2:00pm</p>
+      <p class="next-match-actions">
+        <a class="next-match-btn" href="https://www.google.com/maps/search/?api=1&amp;query={{ next_match.venue | url_encode }}" target="_blank" rel="noopener">Directions</a>
+        <a class="next-match-btn next-match-btn-outline" href="/calendar/">Full Fixtures</a>
+      </p>
+    </div>
+    {% endif %}
     <div class="info-cards">
       <div class="info-card">
         <h3>Training</h3>

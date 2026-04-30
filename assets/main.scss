@@ -302,6 +302,133 @@ a.info-card:visited {
 }
 
 // ----------------------------------------
+// Next match card (home page)
+// ----------------------------------------
+
+.next-match-card {
+  background-color: $mkfc-blue;
+  color: #fff;
+  border-radius: 8px;
+  padding: 1.75rem 1.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(1, 40, 94, 0.18);
+
+  p {
+    margin: 0.25rem 0;
+  }
+
+  a, a:visited {
+    color: #fff;
+  }
+}
+
+.next-match-label {
+  display: inline-block;
+  font-family: $heading-font;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: $mkfc-light-blue;
+  border: 1px solid $mkfc-light-blue;
+  border-radius: 999px;
+  padding: 0.2rem 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.next-match-meta {
+  color: $mkfc-light-blue;
+  font-size: 0.95rem;
+  letter-spacing: 0.04em;
+}
+
+.next-match-teams {
+  font-family: $heading-font;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 1.15;
+  margin: 0.5rem 0 !important;
+
+  .next-match-vs {
+    color: $mkfc-light-blue;
+    font-size: 1.1rem;
+    margin: 0 0.5rem;
+    vertical-align: middle;
+  }
+}
+
+.next-match-tag-row {
+  margin-bottom: 0.75rem !important;
+}
+
+.next-match-tag {
+  display: inline-block;
+  font-family: $heading-font;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 0.15rem 0.6rem;
+  border-radius: 3px;
+}
+
+.next-match-tag-home {
+  background-color: $mkfc-light-blue;
+  color: $mkfc-blue;
+}
+
+.next-match-tag-away {
+  background-color: transparent;
+  color: $mkfc-light-blue;
+  border: 1px solid $mkfc-light-blue;
+}
+
+.next-match-venue {
+  font-weight: 600;
+}
+
+.next-match-times {
+  color: $mkfc-light-blue;
+  font-size: 0.9rem;
+}
+
+.next-match-actions {
+  margin-top: 1rem !important;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.next-match-btn {
+  display: inline-block;
+  background-color: #fff;
+  color: $mkfc-blue !important;
+  padding: 0.5rem 1.25rem;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none !important;
+
+  &:hover {
+    background-color: $mkfc-light-blue;
+  }
+}
+
+.next-match-btn-outline {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff !important;
+  padding: calc(0.5rem - 2px) calc(1.25rem - 2px);
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+  }
+}
+
+// ----------------------------------------
 // Tables (fixtures, etc.)
 // ----------------------------------------
 

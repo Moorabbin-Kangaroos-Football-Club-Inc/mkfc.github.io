@@ -59,7 +59,10 @@
       "Bash(python3 -c \"from PIL import Image; print\\(Image.__version__\\)\")",
       "Bash(pip install *)",
       "Bash(python3 *)",
-      "Bash(fc-list)"
+      "Bash(fc-list)",
+      "Bash(command -v bundle)",
+      "Bash(command -v jekyll)",
+      "Bash(jekyll build *)"
     ]
   }
 }
