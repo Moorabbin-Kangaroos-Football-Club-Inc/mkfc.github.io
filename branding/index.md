@@ -37,6 +37,14 @@ These are the official brand elements for the Moorabbin Kangaroos Football Club.
 
 <div style="display:flex;flex-wrap:wrap;gap:16px;margin:16px 0;">
   <div style="flex:1;min-width:220px;border:1px solid #ddd;border-radius:6px;overflow:hidden;">
+    <div style="background:#1a5a8e;height:120px;"></div>
+    <div style="padding:12px;">
+      <strong>Mid Blue</strong><br>
+      HEX <code>#1A5A8E</code><br>
+      RGB <code>26, 90, 142</code>
+    </div>
+  </div>
+  <div style="flex:1;min-width:220px;border:1px solid #ddd;border-radius:6px;overflow:hidden;">
     <div style="background:#C4D1E5;height:120px;"></div>
     <div style="padding:12px;">
       <strong>Light Blue</strong><br>
@@ -54,6 +62,7 @@ These are the official brand elements for the Moorabbin Kangaroos Football Club.
 | Header, navigation, footer | Deep Navy Blue `#01285E` |
 | Body text on light backgrounds | Deep Navy Blue or near-black |
 | Text on dark backgrounds | White |
+| Large dark surfaces (hero, feature cards, alternate sections, table headers) | Mid Blue `#1A5A8E`, alone or in a navy → mid-blue gradient, to keep dark areas from feeling oppressive |
 | Highlights, subtle accents, secondary panels | Light Blue `#C4D1E5` |
 | Content backgrounds | White, with light grey for secondary sections |
 

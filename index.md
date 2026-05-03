@@ -79,7 +79,7 @@ We welcome players of all experience levels — [find out more about joining](/w
 </div>
 </section>
 
-<section class="section section-navy">
+<section class="section section-mid">
   <div class="section-inner">
     {% include mailchimp_signup.html
        variant="navy"

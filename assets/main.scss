@@ -6,12 +6,13 @@
 // ========================================
 
 $mkfc-blue:       #01285e;
+$mkfc-mid-blue:   #1a5a8e;
 $mkfc-light-blue: #C4D1E5;
 $heading-font:    "DIN Condensed", "Helvetica Neue Condensed", "HelveticaNeue-CondensedBold", "Arial Narrow", sans-serif;
 
 // Override Minima Sass variables before import
 $brand-color:       $mkfc-blue;
-$brand-color-light: #1a5a8e;
+$brand-color-light: $mkfc-mid-blue;
 $brand-color-dark:  #001840;
 $base-font-family:  "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -112,7 +113,7 @@ h1, h2, h3, h4, h5, h6 {
 // ----------------------------------------
 
 .hero {
-  background-color: $mkfc-blue;
+  background: linear-gradient(135deg, $mkfc-blue 0%, $mkfc-mid-blue 100%);
   color: #fff;
   text-align: center;
   padding: 3rem 1rem;
@@ -220,8 +221,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.section-navy {
-  background-color: $mkfc-blue;
+.section-navy,
+.section-mid {
   color: #fff;
 
   h1, h2, h3, h4, h5, h6 {
@@ -235,6 +236,14 @@ h1, h2, h3, h4, h5, h6 {
       color: #fff;
     }
   }
+}
+
+.section-navy {
+  background-color: $mkfc-blue;
+}
+
+.section-mid {
+  background-color: $mkfc-mid-blue;
 }
 
 .section-light {
@@ -306,7 +315,7 @@ a.info-card:visited {
 // ----------------------------------------
 
 .next-match-card {
-  background-color: $mkfc-blue;
+  background: linear-gradient(135deg, $mkfc-blue 0%, $mkfc-mid-blue 100%);
   color: #fff;
   border-radius: 8px;
   padding: 1.75rem 1.5rem;
@@ -438,7 +447,7 @@ table {
   margin-bottom: 1.5rem;
 
   th {
-    background-color: $mkfc-blue;
+    background-color: $mkfc-mid-blue;
     color: #fff;
     padding: 0.5rem 0.75rem;
     text-align: left;
