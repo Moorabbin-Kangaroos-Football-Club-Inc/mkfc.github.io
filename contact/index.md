@@ -24,6 +24,12 @@ description: "Contact the Moorabbin Kangaroos FC — committee members, ground l
 
 Email: info@mkfc.org.au
 
+## Stay in Touch
+
+{% include mailchimp_signup.html
+   heading="Join our mailing list"
+   intro="Subscribe to receive club news, fixtures, and event updates." %}
+
 ## Social Media
 
 - [Facebook](https://www.facebook.com/MoorabbinKangaroos)

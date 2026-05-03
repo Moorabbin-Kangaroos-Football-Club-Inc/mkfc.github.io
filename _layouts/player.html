@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<article class="player-profile">
+  <header class="player-profile-header">
+    <div class="player-profile-photo">
+      {% if page.photo %}
+        <img src="{{ page.photo | relative_url }}" alt="{{ page.name }}">
+      {% else %}
+        <img src="{{ '/logo-2025.jpg' | relative_url }}" alt="MKFC logo placeholder for {{ page.name }}" class="player-profile-photo-placeholder">
+      {% endif %}
+    </div>
+
+    <div class="player-profile-meta">
+      {% if page.number %}<span class="player-profile-number">#{{ page.number }}</span>{% endif %}
+      <h1 class="player-profile-name">{{ page.name }}</h1>
+      <p class="player-profile-tags">
+        {% if page.position %}<span class="player-profile-tag">{{ page.position }}</span>{% endif %}
+        {% if page.team %}<span class="player-profile-tag player-profile-tag-team">{{ page.team | capitalize }}</span>{% endif %}
+      </p>
+    </div>
+  </header>
+
+  <div class="player-profile-body">
+    {{ content }}
+  </div>
+
+  <p class="player-profile-back">
+    <a href="{{ '/players/' | relative_url }}">&larr; Back to roster</a>
+  </p>
+</article>

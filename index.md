@@ -79,6 +79,15 @@ We welcome players of all experience levels — [find out more about joining](/w
 </div>
 </section>
 
+<section class="section section-navy">
+  <div class="section-inner">
+    {% include mailchimp_signup.html
+       variant="navy"
+       heading="Stay Connected"
+       intro="Get club news, fixtures, and event updates delivered straight to your inbox." %}
+  </div>
+</section>
+
 <section class="section section-light" markdown="1">
 <div class="section-inner" markdown="1">
 

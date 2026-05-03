@@ -1,0 +1,42 @@
+{% comment %}
+  Mailchimp newsletter signup. Uses Mailchimp's hosted post endpoint —
+  no API key, no JS dependency. The honeypot field name must match the
+  audience ID and is kept off-screen to catch spam bots.
+
+  Parameters:
+    heading: optional heading text (default: "Stay Connected")
+    intro:   optional intro paragraph
+    variant: "navy" for use on dark backgrounds, otherwise light
+{% endcomment %}
+
+<div class="mc-signup mc-signup--{{ include.variant | default: 'light' }}">
+  <h2>{{ include.heading | default: "Stay Connected" }}</h2>
+  {% if include.intro %}<p class="mc-signup-intro">{{ include.intro }}</p>{% endif %}
+
+  <form
+    action="https://mkfc.us8.list-manage.com/subscribe/post?u=da4166d4f4d7d7444ff40a86c&amp;id=c1a8be3517&amp;f_id=00150de1f0"
+    method="post"
+    target="_blank"
+    novalidate
+    class="mc-signup-form"
+  >
+    <label for="mce-EMAIL" class="mc-signup-label">Email address</label>
+    <div class="mc-signup-row">
+      <input
+        type="email"
+        name="EMAIL"
+        id="mce-EMAIL"
+        required
+        placeholder="you@example.com"
+        autocomplete="email"
+        class="mc-signup-input"
+      >
+      <button type="submit" class="mc-signup-button">Subscribe</button>
+    </div>
+
+    {% comment %} Honeypot — real users leave this empty. {% endcomment %}
+    <div aria-hidden="true" style="position: absolute; left: -5000px;">
+      <input type="text" name="b_da4166d4f4d7d7444ff40a86c_c1a8be3517" tabindex="-1" value="">
+    </div>
+  </form>
+</div>

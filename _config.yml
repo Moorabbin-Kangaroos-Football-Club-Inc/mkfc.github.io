@@ -55,11 +55,21 @@ header_pages:
 
 show_excerpts: true
 
+collections:
+  players:
+    output: true
+    permalink: /players/:name/
+
 defaults:
   - scope:
       path: ""
     values:
       image: /logo-2025.jpg
+  - scope:
+      path: ""
+      type: players
+    values:
+      layout: player
 
 # Exclude from processing.
 exclude:
@@ -80,3 +90,4 @@ exclude:
   - screenshot.png
   - docs/
   - CLAUDE.md
+  - _players/README.md
