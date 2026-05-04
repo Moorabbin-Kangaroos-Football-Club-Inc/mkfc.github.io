@@ -22,14 +22,14 @@ twitter:
 social:
   name: Moorabbin Kangaroos Football Club
   links:
-    - https://www.facebook.com/MoorabbinKangaroos
+    - https://www.facebook.com/MoorabbinKangas
     - https://instagram.com/moorabbinroos
     - https://twitter.com/moorabbinroos
 
 # Footer social links (minima)
 minima:
   social_links:
-    - { platform: facebook, user_url: "https://www.facebook.com/MoorabbinKangaroos" }
+    - { platform: facebook, user_url: "https://www.facebook.com/MoorabbinKangas" }
     - { platform: instagram, user_url: "https://instagram.com/moorabbinroos" }
     - { platform: twitter, user_url: "https://twitter.com/moorabbinroos" }
 
@@ -51,6 +51,7 @@ header_pages:
   - gallery/index.md
   - sponsors/index.md
   - calendar/index.md
+  - register/index.md
   - contact/index.md
 
 show_excerpts: true

@@ -1,39 +1,27 @@
 ---
 layout: default
 title: Players
-description: "Moorabbin Kangaroos player roster for the 2026 SFNL Division 4 season. Senior and Reserves teams."
+description: "Moorabbin Kangaroos player roster for the 2026 SFNL Division 4 season."
 ---
 
 # Players
 
-The Moorabbin Kangaroos field two teams in the **SFNL Division 4** competition each season.
+The Moorabbin Kangaroos field two teams in the **SFNL Division 4** competition each season. Players move between the Seniors and Reserves through the year, so we list our full squad together.
 
-{% assign seniors = site.players | where: "team", "seniors" | sort: "number" %}
-{% assign reserves = site.players | where: "team", "reserves" | sort: "number" %}
+{% assign squad = site.players | sort: "number" %}
 
-## Senior Team
+## Squad
 
-{% if seniors.size > 0 %}
+{% if squad.size > 0 %}
 | # | Player | Position |
 |---|--------|----------|
-{% for player in seniors %}| {{ player.number }} | [{{ player.name }}]({{ player.url | relative_url }}) | {{ player.position }} |
+{% for player in squad %}| {{ player.number }} | [{{ player.name }}]({{ player.url | relative_url }}) | {{ player.position }} |
 {% endfor %}
 {% else %}
-*Senior team roster coming soon.*
+*Squad roster coming soon.*
 {% endif %}
 
-## Reserves Team
-
-{% if reserves.size > 0 %}
-| # | Player | Position |
-|---|--------|----------|
-{% for player in reserves %}| {{ player.number }} | [{{ player.name }}]({{ player.url | relative_url }}) | {{ player.position }} |
-{% endfor %}
-{% else %}
-*Reserves roster coming soon.*
-{% endif %}
-
-*Roster last updated: March 2026. For match-day team sheets, see our [Facebook page](https://www.facebook.com/MoorabbinKangaroos).*
+*Roster last updated: March 2026. For match-day team sheets, see our [Facebook page](https://www.facebook.com/MoorabbinKangas).*
 
 ## Interested in Playing?
 
