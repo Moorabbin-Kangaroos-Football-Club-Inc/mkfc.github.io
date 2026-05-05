@@ -62,7 +62,9 @@
       "Bash(fc-list)",
       "Bash(command -v bundle)",
       "Bash(command -v jekyll)",
-      "Bash(jekyll build *)"
+      "Bash(jekyll build *)",
+      "WebFetch(domain:www.facebook.com)",
+      "WebFetch(domain:www.instagram.com)"
     ]
   }
 }

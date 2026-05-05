@@ -33,8 +33,8 @@ Email: info@mkfc.org.au
 ## Social Media
 
 - [Facebook](https://www.facebook.com/MoorabbinKangas)
-- [Instagram](https://instagram.com/moorabbinroos)
-- [Twitter](https://twitter.com/moorabbinroos)
+- [Instagram](https://www.instagram.com/moorabbinkangas)
+- [X (Twitter)](https://x.com/@moorabbinkangas)
 
 ## Ground Location
 

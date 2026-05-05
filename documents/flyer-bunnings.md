@@ -61,7 +61,7 @@ Email **info@mkfc.org.au**
 ### *Proudly Moorabbin born — Go Roos!*
 
 **Find us:**
-facebook.com/MoorabbinKangas · instagram.com/moorabbinroos
+facebook.com/MoorabbinKangas · instagram.com/moorabbinkangas
 
 ---
 

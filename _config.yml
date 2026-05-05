@@ -16,22 +16,22 @@ author: Moorabbin Kangaroos
 
 # Social / SEO metadata (used by jekyll-seo-tag)
 twitter:
-  username: moorabbinroos
+  username: moorabbinkangas
   card: summary_large_image
 
 social:
   name: Moorabbin Kangaroos Football Club
   links:
     - https://www.facebook.com/MoorabbinKangas
-    - https://instagram.com/moorabbinroos
-    - https://twitter.com/moorabbinroos
+    - https://www.instagram.com/moorabbinkangas
+    - https://x.com/@moorabbinkangas
 
 # Footer social links (minima)
 minima:
   social_links:
     - { platform: facebook, user_url: "https://www.facebook.com/MoorabbinKangas" }
-    - { platform: instagram, user_url: "https://instagram.com/moorabbinroos" }
-    - { platform: twitter, user_url: "https://twitter.com/moorabbinroos" }
+    - { platform: instagram, user_url: "https://www.instagram.com/moorabbinkangas" }
+    - { platform: twitter, user_url: "https://x.com/@moorabbinkangas" }
 
 # Build settings
 theme: minima
