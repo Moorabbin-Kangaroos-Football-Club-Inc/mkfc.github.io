@@ -24,7 +24,7 @@ The original options (A/B/C/D) and their pros/cons are preserved in git history 
 | Instagram | `moorabbinkangas` | instagram.com/moorabbinkangas | ✅ migrated |
 | X / Twitter | `moorabbinkangas` | x.com/@moorabbinkangas | ✅ migrated |
 | TikTok | *(not claimed)* | — | ⬜ defensive claim pending |
-| YouTube | *(not claimed)* | — | ⬜ defensive claim pending |
+| YouTube | `MoorabbinKangas` | youtube.com/@MoorabbinKangas | ✅ claimed |
 | Threads | *(not claimed)* | — | ⬜ defensive claim pending |
 | Bluesky | *(not claimed)* | — | ⬜ defensive claim pending |
 | LinkedIn | *(no club page)* | — | ⬜ create page |
@@ -48,7 +48,7 @@ The three primary platforms are now consistent. Cross-promotion ("follow us @moo
 Claim `moorabbinkangas` on:
 
 - [ ] TikTok
-- [ ] YouTube
+- [x] YouTube
 - [ ] Threads (auto-creates from Instagram, just confirm)
 - [ ] Bluesky
 
@@ -57,7 +57,7 @@ Plus consider reserving `mkfc.au` and `moorabbinkangaroos.com.au` domain variant
 ### Content / activation
 
 - [ ] **TikTok** — claim handle and start posting. Player-of-the-week reels, training highlights, behind-the-scenes. Single biggest reach lever for community sport recruitment under 25.
-- [ ] **YouTube** — claim handle. Use for game replays, season highlights. Long-tail discoverability and sponsors love embeddable highlight reels.
+- [x] **YouTube** — handle `@MoorabbinKangas` claimed. Use for game replays, season highlights. Long-tail discoverability and sponsors love embeddable highlight reels.
 - [ ] **Threads** — cross-post from Instagram (free piggyback on IG audience).
 - [ ] **LinkedIn** — create a club page (separate from personal profiles). Sponsorship outreach and volunteer / committee recruitment.
 

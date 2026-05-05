@@ -25,6 +25,7 @@ social:
     - https://www.facebook.com/MoorabbinKangas
     - https://www.instagram.com/moorabbinkangas
     - https://x.com/@moorabbinkangas
+    - https://www.youtube.com/@MoorabbinKangas
 
 # Footer social links (minima)
 minima:
@@ -32,6 +33,7 @@ minima:
     - { platform: facebook, user_url: "https://www.facebook.com/MoorabbinKangas" }
     - { platform: instagram, user_url: "https://www.instagram.com/moorabbinkangas" }
     - { platform: twitter, user_url: "https://x.com/@moorabbinkangas" }
+    - { platform: youtube, user_url: "https://www.youtube.com/@MoorabbinKangas" }
 
 # Build settings
 theme: minima
