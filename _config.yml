@@ -26,6 +26,10 @@ social:
     - https://www.instagram.com/moorabbinkangas
     - https://x.com/@moorabbinkangas
     - https://www.youtube.com/@MoorabbinKangas
+    - https://www.tiktok.com/@moorabbinkangas
+    - https://www.threads.com/@moorabbinkangas
+    - https://bsky.app/profile/moorabbinkangas.bsky.social
+    - https://www.linkedin.com/company/moorabbinkangas
 
 # Footer social links (minima)
 minima:
@@ -34,6 +38,10 @@ minima:
     - { platform: instagram, user_url: "https://www.instagram.com/moorabbinkangas" }
     - { platform: twitter, user_url: "https://x.com/@moorabbinkangas" }
     - { platform: youtube, user_url: "https://www.youtube.com/@MoorabbinKangas" }
+    - { platform: tiktok, user_url: "https://www.tiktok.com/@moorabbinkangas" }
+    - { platform: threads, user_url: "https://www.threads.com/@moorabbinkangas" }
+    - { platform: bluesky, user_url: "https://bsky.app/profile/moorabbinkangas.bsky.social" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/company/moorabbinkangas" }
 
 # Build settings
 theme: minima

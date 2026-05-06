@@ -23,11 +23,11 @@ The original options (A/B/C/D) and their pros/cons are preserved in git history 
 | Facebook | `MoorabbinKangas` | facebook.com/MoorabbinKangas | ✅ aligned |
 | Instagram | `moorabbinkangas` | instagram.com/moorabbinkangas | ✅ migrated |
 | X / Twitter | `moorabbinkangas` | x.com/@moorabbinkangas | ✅ migrated |
-| TikTok | *(not claimed)* | — | ⬜ defensive claim pending |
+| TikTok | `moorabbinkangas` | tiktok.com/@moorabbinkangas | ✅ claimed |
 | YouTube | `MoorabbinKangas` | youtube.com/@MoorabbinKangas | ✅ claimed |
-| Threads | *(not claimed)* | — | ⬜ defensive claim pending |
-| Bluesky | *(not claimed)* | — | ⬜ defensive claim pending |
-| LinkedIn | *(no club page)* | — | ⬜ create page |
+| Threads | `moorabbinkangas` | threads.com/@moorabbinkangas | ✅ claimed |
+| Bluesky | `moorabbinkangas.bsky.social` | bsky.app/profile/moorabbinkangas.bsky.social | ✅ claimed |
+| LinkedIn | `moorabbinkangas` | linkedin.com/company/moorabbinkangas | ✅ created |
 
 The three primary platforms are now consistent. Cross-promotion ("follow us @moorabbinkangas everywhere") finally works on the platforms we actually use.
 
@@ -47,19 +47,19 @@ The three primary platforms are now consistent. Cross-promotion ("follow us @moo
 
 Claim `moorabbinkangas` on:
 
-- [ ] TikTok
+- [x] TikTok
 - [x] YouTube
-- [ ] Threads (auto-creates from Instagram, just confirm)
-- [ ] Bluesky
+- [x] Threads
+- [x] Bluesky
 
 Plus consider reserving `mkfc.au` and `moorabbinkangaroos.com.au` domain variants if not already held.
 
 ### Content / activation
 
-- [ ] **TikTok** — claim handle and start posting. Player-of-the-week reels, training highlights, behind-the-scenes. Single biggest reach lever for community sport recruitment under 25.
+- [x] **TikTok** — handle `@moorabbinkangas` claimed. Start posting: player-of-the-week reels, training highlights, behind-the-scenes. Single biggest reach lever for community sport recruitment under 25.
 - [x] **YouTube** — handle `@MoorabbinKangas` claimed. Use for game replays, season highlights. Long-tail discoverability and sponsors love embeddable highlight reels.
 - [ ] **Threads** — cross-post from Instagram (free piggyback on IG audience).
-- [ ] **LinkedIn** — create a club page (separate from personal profiles). Sponsorship outreach and volunteer / committee recruitment.
+- [x] **LinkedIn** — club page created at linkedin.com/company/moorabbinkangas. Use for sponsorship outreach and volunteer / committee recruitment.
 
 ### Website integration
 

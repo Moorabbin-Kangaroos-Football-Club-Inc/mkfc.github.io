@@ -165,6 +165,10 @@ Follow us to stay up to date with news, results, and events:
 - **Facebook:** [facebook.com/MoorabbinKangas](https://www.facebook.com/MoorabbinKangas)
 - **Instagram:** [instagram.com/moorabbinkangas](https://www.instagram.com/moorabbinkangas)
 - **X (Twitter):** [x.com/moorabbinkangas](https://x.com/@moorabbinkangas)
+- **TikTok:** [tiktok.com/@moorabbinkangas](https://www.tiktok.com/@moorabbinkangas)
+- **Threads:** [threads.com/@moorabbinkangas](https://www.threads.com/@moorabbinkangas)
+- **Bluesky:** [moorabbinkangas.bsky.social](https://bsky.app/profile/moorabbinkangas.bsky.social)
+- **LinkedIn:** [linkedin.com/company/moorabbinkangas](https://www.linkedin.com/company/moorabbinkangas)
 
 ---
 
