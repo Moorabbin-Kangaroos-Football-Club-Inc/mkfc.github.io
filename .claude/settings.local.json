@@ -64,7 +64,8 @@
       "Bash(command -v jekyll)",
       "Bash(jekyll build *)",
       "WebFetch(domain:www.facebook.com)",
-      "WebFetch(domain:www.instagram.com)"
+      "WebFetch(domain:www.instagram.com)",
+      "WebFetch(domain:en.wikipedia.org)"
     ]
   }
 }
