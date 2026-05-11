@@ -16,6 +16,7 @@ Submit via [Articles for Creation](https://en.wikipedia.org/wiki/Wikipedia:Artic
 
 ## Article wikitext
 
+{% raw %}
 ```wikitext
 {{Short description|Australian-rules football club in Hampton East, Victoria}}
 {{For|the original Moorabbin Football Club (1909–1965)|Moorabbin Football Club}}
@@ -63,8 +64,9 @@ The club's home ground is '''A.W. Oliver Reserve''' (also known as Widdop Cresce
 [[Category:Australian rules football clubs established in 1965]]
 [[Category:1965 establishments in Australia]]
 ```
+{% endraw %}
 
-## Outstanding citations (`{{cn}}` tags)
+## Outstanding citations ({% raw %}`{{cn}}`{% endraw %} tags)
 
 1. **1965 reformation under Geoff Burke** — local press from late 1965 / early 1966 ideal.
 2. **1986 ESCFA E-Grade entry** — league records or contemporary reporting.

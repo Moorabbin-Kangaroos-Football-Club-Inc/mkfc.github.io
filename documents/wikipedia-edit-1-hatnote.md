@@ -12,15 +12,19 @@ Wikipedia article: **Moorabbin Football Club** (the original 1909–1965 club).
 
 ## Current hatnote (to be replaced)
 
+{% raw %}
 ```wikitext
 {{For-multi|the club that competed in the VFA from 1983–1987|Moorabbin Football Club (1979–1987)|the current-day Moorabbin Kangaroos Football Club|Southern Football Netball League}}
 ```
+{% endraw %}
 
 ## Replacement hatnote
 
+{% raw %}
 ```wikitext
 {{For-multi|the club that competed in the VFA from 1983–1987|Moorabbin Football Club (1979–1987)|the current-day club that traces its lineage to this one|Moorabbin Kangaroos Football Club}}
 ```
+{% endraw %}
 
 ## Rationale
 
