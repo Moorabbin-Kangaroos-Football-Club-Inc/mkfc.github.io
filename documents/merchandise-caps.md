@@ -37,55 +37,45 @@ The MKFC brand guide was updated on 2026-05-11 to adopt Royal Blue (Pantone 286 
 
 Note that NMFC's product photos render their cap shell at roughly `#0052AB` (a brighter, more vibrant blue) — this is a photographic artefact of studio lighting and compression, not a different brand colour. The physical fabric is dyed to Pantone 286 C.
 
-## Logo / Wordmark Brief
+## Final Wordmark
 
-Two-line stacked wordmark, white on royal blue, designed for embroidery within a 60 × 20 mm area.
+Approved 2026-05-11. Two-line stacked wordmark, designed for embroidery in white on the royal blue cap.
 
 | Line | Text | Style |
 |---|---|---|
-| Top | MOORABBIN | Condensed sans-serif, medium weight, uppercase, tracked out to span the full width. ~6–7 mm cap height (≈⅓ of total). |
-| Bottom | KANGAS | **Bold italic** condensed sans-serif display, uppercase, ~12° slant. Reference: NMFC "KANGAROOS" wordmark. ~10–12 mm cap height (≈⅔ of total). |
+| Top | MOORABBIN | **Bold upright** (non-italic) bold condensed sans-serif, uppercase, tracked to span the wordmark width. |
+| Top right superscript | TM | Trademark mark, retained at committee request. |
+| Bottom | KANGAS | **Bold italic** bold condensed sans-serif, uppercase, ~12° slant. Reference: NMFC "KANGAROOS" wordmark. |
 
-Both lines centred horizontally with a ~2 mm gap between them.
+Both lines roughly equal height and weight; the italic slant on KANGAS provides the visual contrast and AFL feel. Embroidery thread: single colour, pure white. The royal blue background visible in the artwork is for visualisation only — the cap shell supplies the blue.
 
-### Suggested fonts
+### Artwork files
 
-| Font | Source | Notes |
-|---|---|---|
-| Industry Inc Bold Italic | House Industries (paid) | Closest commercial match |
-| Knockout 71 Full Heavyweight Italic | Hoefler&Co (paid) | What most AFL/NRL clubs use |
-| Bebas Neue Bold + 12° italic skew | Google Fonts (free) | Cheapest path, looks the part |
-| Oswald Bold + italic skew | Google Fonts (free) | Slightly narrower alternative |
+Stored in [`assets/merchandise/cap-artwork/`](/assets/merchandise/cap-artwork/) within this repo so they're persistent (the Canva pre-signed export URLs expire).
 
-Pair with **Oswald Regular** or **Barlow Condensed Medium** for the "MOORABBIN" line.
+| File | Use |
+|---|---|
+| [`mkfc-cap-wordmark.pdf`](/assets/merchandise/cap-artwork/mkfc-cap-wordmark.pdf) | Send to Vistaprint / embroiderer — preferred format for digitisation. |
+| [`mkfc-cap-wordmark.png`](/assets/merchandise/cap-artwork/mkfc-cap-wordmark.png) | 2000 × 2000 raster — visual reference and committee approval copy. |
+
+Source Canva design (editable): <https://www.canva.com/d/gvWP-PJsl91xWY7> (design ID `DAHJWNy-oHs`).
 
 ### Embroidery considerations
 
-- Single thread colour (white) keeps digitising simple and unit cost down.
-- Avoid thin/light weights on the top line — at 6–7 mm cap height, strokes can drop below 1 mm and won't stitch cleanly.
-- Request a digital proof of the digitised stitch file from Vistaprint before they run the batch. Bold italic letterforms like "B", "R", "G" can fill in if poorly digitised.
-- Vistaprint thread colours are approximate, not Pantone-matched.
-
-## Canva Design Candidates
-
-Four wordmark candidates generated in Canva. Committee to pick one (or request a refinement) before sending to Vistaprint.
-
-| # | Preview | Open in Canva |
-|---|---|---|
-| 1 | <https://design.canva.ai/u6KIpocS5BIhogb> | <https://www.canva.com/d/5AMrzOot38xZhEV> |
-| 2 | <https://design.canva.ai/jjFJYzqoRifvKDP> | <https://www.canva.com/d/I91tQ_PMf8f3Ff9> |
-| 3 | <https://design.canva.ai/fQIsaT3gmVBNo8s> | <https://www.canva.com/d/WxZSDMREhs1fCK2> |
-| 4 | <https://design.canva.ai/_-fJP1n0MFt7rRk> | <https://www.canva.com/d/mTc3ukWTnwiWV65> |
+- Single thread colour (pure white) keeps digitising simple and unit cost down.
+- The strokes on bold italic letterforms — "K", "A", "G" — must be inspected on the digitised proof; counters can fill in if the stitch density is too high.
+- Request a digital proof from Vistaprint **before** they run the batch.
+- Vistaprint thread colours are approximate, not Pantone-matched — the white is unambiguous, the cap shell is the only colour where this matters.
 
 ## Next Steps
 
-1. Committee selects preferred candidate (or requests a refinement).
-2. Save the selected design into the MKFC Canva account and export as PNG (transparent background) and PDF at high resolution.
-3. Order **one sample cap** from Vistaprint at the agreed spec — Royal Blue, 60 × 20 mm white embroidery, chosen wordmark.
-4. Inspect the sample for embroidery quality, thread weight, and overall finish.
-5. If sample approved, model pricing at 25 / 50 / 100 break points and place the bulk order.
+1. Order **one sample cap** from Vistaprint at the agreed spec — Royal Blue, ~60 × 20 mm white embroidery, using `mkfc-cap-wordmark.pdf`.
+2. Confirm with Vistaprint which Pantone their Royal Blue stock corresponds to; flag to committee if it diverges materially from Pantone 286 C.
+3. Inspect the sample for embroidery quality, thread weight, and letterform integrity at small size.
+4. If sample approved, model pricing at 25 / 50 / 100 break points and place the bulk order.
 
 ## Decision Log
 
 - **2026-05-11** — Initial spec drafted. Royal Blue selected to match NMFC visual reference. Two-line "MOORABBIN / KANGAS" stacked wordmark chosen, bold italic on bottom line.
 - **2026-05-11** — MKFC brand guide updated to adopt Royal Blue (`#013087`, Pantone 286 C) as the primary colour. Cap colour now aligns with the brand guide rather than diverging from it.
+- **2026-05-11** — Final wordmark approved and exported. MOORABBIN set upright bold; KANGAS bold italic; TM superscript retained. Artwork committed to `assets/merchandise/cap-artwork/`.
