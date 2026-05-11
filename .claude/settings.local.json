@@ -65,7 +65,12 @@
       "Bash(jekyll build *)",
       "WebFetch(domain:www.facebook.com)",
       "WebFetch(domain:www.instagram.com)",
-      "WebFetch(domain:en.wikipedia.org)"
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:shop.nmfc.com.au)",
+      "WebFetch(domain:www.vistaprint.com.au)",
+      "mcp__claude_ai_Canva__generate-design",
+      "Read(//tmp/**)",
+      "Bash(curl -sL -o nmfc_cap.jpg 'https://cdn11.bigcommerce.com/s-dqet4r0nqa/images/stencil/1280x1280/products/820/2018/60841357_KID940-AFL26-SPLIT-SCRIPT_NMEKAN_OTC_F__30429.1771375836.jpg?c=1')"
     ]
   }
 }

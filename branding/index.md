@@ -7,20 +7,22 @@ description: "Moorabbin Kangaroos FC brand guidelines — colour palette, typogr
 
 # Moorabbin Kangaroos FC Branding
 
-These are the official brand elements for the Moorabbin Kangaroos Football Club. The club's visual identity is inspired by the AFL's North Melbourne Kangaroos — navy and white, with light blue as a secondary accent.
+These are the official brand elements for the Moorabbin Kangaroos Football Club. The club's visual identity is inspired by the AFL's North Melbourne Kangaroos — royal blue and white, with light blue as a secondary accent.
 
 ## Colour Palette
+
+**Pantone is the source of truth.** The HEX and RGB values below are sRGB approximations for digital use only. For any physical reproduction (fabric dye, embroidery thread, screen print, paper stock), specify **Pantone 286 C** to the supplier — that's the same spec the AFL's North Melbourne club uses and the only way to land consistent colour across batches and suppliers. Different monitors, photo lighting, and JPEG/WebP compression will all shift the on-screen rendering of the cap — but the dyed/printed colour is what matters.
 
 ### Primary
 
 <div style="display:flex;flex-wrap:wrap;gap:16px;margin:16px 0;">
   <div style="flex:1;min-width:220px;border:1px solid #ddd;border-radius:6px;overflow:hidden;">
-    <div style="background:#01285e;height:120px;"></div>
+    <div style="background:#013087;height:120px;"></div>
     <div style="padding:12px;">
-      <strong>Deep Navy Blue</strong><br>
-      HEX <code>#01285E</code><br>
-      RGB <code>1, 40, 94</code><br>
-      Pantone 7687 C
+      <strong>Royal Blue</strong><br>
+      HEX <code>#013087</code><br>
+      RGB <code>1, 48, 135</code><br>
+      Pantone 286 C
     </div>
   </div>
   <div style="flex:1;min-width:220px;border:1px solid #ddd;border-radius:6px;overflow:hidden;">
@@ -37,20 +39,19 @@ These are the official brand elements for the Moorabbin Kangaroos Football Club.
 
 <div style="display:flex;flex-wrap:wrap;gap:16px;margin:16px 0;">
   <div style="flex:1;min-width:220px;border:1px solid #ddd;border-radius:6px;overflow:hidden;">
-    <div style="background:#1a5a8e;height:120px;"></div>
+    <div style="background:#1F4DA8;height:120px;"></div>
     <div style="padding:12px;">
       <strong>Mid Blue</strong><br>
-      HEX <code>#1A5A8E</code><br>
-      RGB <code>26, 90, 142</code>
+      HEX <code>#1F4DA8</code><br>
+      RGB <code>31, 77, 168</code>
     </div>
   </div>
   <div style="flex:1;min-width:220px;border:1px solid #ddd;border-radius:6px;overflow:hidden;">
-    <div style="background:#C4D1E5;height:120px;"></div>
+    <div style="background:#C8D6F0;height:120px;"></div>
     <div style="padding:12px;">
       <strong>Light Blue</strong><br>
-      HEX <code>#C4D1E5</code><br>
-      RGB <code>196, 209, 229</code><br>
-      Pantone 643 C
+      HEX <code>#C8D6F0</code><br>
+      RGB <code>200, 214, 240</code>
     </div>
   </div>
 </div>
@@ -59,11 +60,11 @@ These are the official brand elements for the Moorabbin Kangaroos Football Club.
 
 | Element | Colour |
 |---|---|
-| Header, navigation, footer | Deep Navy Blue `#01285E` |
-| Body text on light backgrounds | Deep Navy Blue or near-black |
+| Header, navigation, footer | Royal Blue `#013087` |
+| Body text on light backgrounds | Royal Blue or near-black |
 | Text on dark backgrounds | White |
-| Large dark surfaces (hero, feature cards, alternate sections, table headers) | Mid Blue `#1A5A8E`, alone or in a navy → mid-blue gradient, to keep dark areas from feeling oppressive |
-| Highlights, subtle accents, secondary panels | Light Blue `#C4D1E5` |
+| Large dark surfaces (hero, feature cards, alternate sections, table headers) | Mid Blue `#1F4DA8`, alone or in a royal → mid-blue gradient, to keep dark areas from feeling oppressive |
+| Highlights, subtle accents, secondary panels | Light Blue `#C8D6F0` |
 | Content backgrounds | White, with light grey for secondary sections |
 
 ## Typography
@@ -81,7 +82,7 @@ Fall back to system sans-serif fonts (Arial, Helvetica) where DIN or Helvetica N
 ## Logo
 
 <div style="margin:16px 0;">
-  <img src="/mkfc-logo-large.png" alt="Moorabbin Kangaroos FC logo" style="max-width:320px;height:auto;background:#01285e;padding:24px;border-radius:6px;">
+  <img src="/mkfc-logo-large.png" alt="Moorabbin Kangaroos FC logo" style="max-width:320px;height:auto;background:#013087;padding:24px;border-radius:6px;">
 </div>
 
 - Preserve clear space around the logo equal to the height of the kangaroo's head.
@@ -98,15 +99,15 @@ Logo files:
 
 ## Merchandise & Apparel
 
-The brand applies consistently across on-field, training, off-field, and supporter merchandise. Keep colour, logo, and typography aligned with the rest of this guide — the navy/white palette is the priority on every garment.
+The brand applies consistently across on-field, training, off-field, and supporter merchandise. Keep colour, logo, and typography aligned with the rest of this guide — the royal blue and white palette is the priority on every garment.
 
 ### Categories
 
 | Category | Items | Primary look |
 |---|---|---|
-| On-field | Match guernsey, shorts, socks | Deep Navy `#01285E` with white kangaroo logo on chest; club name across front in DIN Condensed |
-| Training | Polos, tees, singlets, mid-layers, jackets | Navy primary; light blue `#C4D1E5` accents permitted on cuffs, collars, panels |
-| Off-field / supporter | Hoodies, caps, beanies, scarves, polos | Navy or white base; logo on chest or front-centre |
+| On-field | Match guernsey, shorts, socks | Royal Blue `#013087` with white kangaroo logo on chest; club name across front in DIN Condensed |
+| Training | Polos, tees, singlets, mid-layers, jackets | Royal blue primary; light blue `#C8D6F0` accents permitted on cuffs, collars, panels |
+| Off-field / supporter | Hoodies, caps, beanies, scarves, polos | Royal blue or white base; logo on chest or front-centre |
 | Kids / junior | Scaled versions of the above | Same palette; avoid additional decorative colours |
 | Heritage / commemorative | One-off runs (e.g. anniversaries) | Must be pre-approved by the committee before production |
 
@@ -128,10 +129,11 @@ The brand applies consistently across on-field, training, off-field, and support
 
 ### Colour reproduction on fabric
 
-- Match to **Pantone 7687 C** (Deep Navy) and **Pantone 643 C** (Light Blue) where the supplier supports Pantone matching. CMYK/HEX values from the [Colour Palette](#colour-palette) are acceptable for digital print and sublimation.
-- Embroidery thread should be matched to the closest Madeira or Robison-Anton equivalent of Pantone 7687 C.
+- **Always specify Pantone 286 C** (Royal Blue) to the supplier for fabric dye, screen print, and embroidery thread. HEX `#013087` is an sRGB approximation for digital use only and should not be used as the primary spec for physical production.
+- For digital print and sublimation where Pantone matching isn't available, the HEX/CMYK values from the [Colour Palette](#colour-palette) are an acceptable fallback.
+- Embroidery thread should be matched to the closest Madeira or Robison-Anton equivalent of Pantone 286 C.
 - White is always pure white (`#FFFFFF`) — no off-white, cream, or natural.
-- Avoid any blue that isn't navy or the secondary light blue. In particular, do not use royal blue (the AFL North Melbourne shade) — MKFC's navy is deeper.
+- Use only the documented royal blue, mid blue, and light blue tones. Avoid unrelated blues — navy, teal, sky, etc. — that fall outside the AFL-North-Melbourne family.
 
 ### Approved suppliers
 
@@ -150,7 +152,7 @@ The brand applies consistently across on-field, training, off-field, and support
 
 - **Professional and community-focused** — clean layouts that communicate a serious sports club without losing the local-club warmth.
 - **Card-based content** — news, players, and sponsors are presented as clearly separated cards.
-- **Strong navy/white contrast** — the institutional feel comes from disciplined use of the navy palette.
+- **Strong royal-blue/white contrast** — the institutional feel comes from disciplined use of the royal blue palette.
 - **Bold condensed headings** — short, confident headlines pair with relaxed body text.
 
 ## Reference

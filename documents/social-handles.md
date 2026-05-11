@@ -144,13 +144,13 @@ Walk through both Facebook and Instagram:
 | Element | Standard |
 |---|---|
 | Display name | "Moorabbin Kangaroos Football Club" — verbatim, identical on both |
-| Profile picture | Club logo, square, on Deep Navy `#01285E` background. Same image on FB and IG. Test it small (40 px) — does it read? |
-| Cover/header image (FB) | Action shot or branded banner using `#01285E` / `#1A5A8E`. Refresh each season. |
+| Profile picture | Club logo, square, on Royal Blue `#013087` background. Same image on FB and IG. Test it small (40 px) — does it read? |
+| Cover/header image (FB) | Action shot or branded banner using `#013087` / `#1F4DA8`. Refresh each season. |
 | Bio mentions | Full club name · SFNL Division · location · website |
 | Category | "Sports Team" or "Sports & Recreation" on FB; "Sports Team" on IG |
 | Contact info | Same email/phone on both. Address: ground location (Widdop Crescent, Hampton East) |
 | Pinned post (FB) | A current "About / how to join" post. Refresh each season. |
-| Story highlights (IG) | Match Days · Training · Players · Sponsors · How to Join. Cover thumbnails on-brand (navy + white). |
+| Story highlights (IG) | Match Days · Training · Players · Sponsors · How to Join. Cover thumbnails on-brand (royal blue + white). |
 | Hashtags | `#GoKangas #MKFC #MoorabbinKangas #SFNL` — agreed bank, used on every post |
 
 ---

@@ -174,11 +174,13 @@ Follow us to stay up to date with news, results, and events:
 
 ## Our Club Colours
 
-The Moorabbin Kangaroos proudly wear **Deep Navy Blue**, **White**, and **Light Blue** — inspired by the AFL's North Melbourne Kangaroos.
+The Moorabbin Kangaroos proudly wear **Royal Blue**, **White**, and **Light Blue** — inspired by the AFL's North Melbourne Kangaroos.
 
-- **Deep Navy Blue** (Primary) — #01285e
+- **Royal Blue** (Primary) — Pantone 286 C · #013087
 - **White** (Primary)
-- **Light Blue** (Secondary) — #C4D1E5
+- **Light Blue** (Secondary) — #C8D6F0
+
+For merchandise, signage, or print orders, always specify **Pantone 286 C** to the supplier. HEX values are sRGB approximations for digital use only. See the [Branding guide](/branding/) for the full palette and reproduction rules.
 
 ---
 

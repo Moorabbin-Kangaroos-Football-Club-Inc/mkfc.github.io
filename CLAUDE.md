@@ -54,4 +54,4 @@ Custom styling lives in `assets/main.scss`, which overrides Minima's `$brand-col
 
 ## Branding
 
-`branding/index.md` is the canonical brand guide (served at `/branding/`). It documents the colour palette (Deep Navy `#01285E`, White, Mid Blue `#1A5A8E`, Light Blue `#C4D1E5`) and typography (DIN / Helvetica Neue family). When changing site styling, align with this doc — the SCSS variables in `assets/main.scss` (`$mkfc-blue`, `$mkfc-mid-blue`, `$mkfc-light-blue`) mirror it.
+`branding/index.md` is the canonical brand guide (served at `/branding/`). It documents the colour palette (Royal Blue `#013087` / Pantone 286 C, White, Mid Blue `#1F4DA8`, Light Blue `#C8D6F0`) and typography (DIN / Helvetica Neue family). When changing site styling, align with this doc — the SCSS variables in `assets/main.scss` (`$mkfc-blue`, `$mkfc-mid-blue`, `$mkfc-light-blue`) mirror it.

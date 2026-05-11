@@ -68,7 +68,7 @@ facebook.com/MoorabbinKangas · instagram.com/moorabbinkangas
 <!--
   Print notes for committee:
   - Generate QR code at qr-code-generator.com pointing to https://www.mkfc.org.au/register/
-  - Print on club letterhead / navy-trim cardstock for a quality feel
+  - Print on club letterhead / royal-blue-trim cardstock for a quality feel
   - Suggested print run: 200 for first Bunnings session, reorder if uptake is strong
   - Consider double-sided: flyer on front, fixture / training calendar on back
 -->

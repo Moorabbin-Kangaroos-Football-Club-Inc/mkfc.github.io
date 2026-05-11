@@ -7,15 +7,15 @@ description: "Moorabbin Kangaroos Football Club — Bar Menu."
 
 <style>
   .menu-page { max-width: 720px; margin: 0 auto; padding: 16px; font-size: 20px; line-height: 1.35; }
-  .menu-header { display: flex; align-items: center; gap: 18px; border-bottom: 4px solid #01285E; padding-bottom: 14px; margin-bottom: 18px; }
+  .menu-header { display: flex; align-items: center; gap: 18px; border-bottom: 4px solid #013087; padding-bottom: 14px; margin-bottom: 18px; }
   .menu-header img { width: 110px; height: auto; flex-shrink: 0; }
   .menu-header img.menu-header-mark { width: 80px; margin-left: auto; }
-  .menu-header h1 { margin: 0; color: #01285E; font-size: 1.9rem; line-height: 1.1; }
-  .menu-header p { margin: 4px 0 0; color: #01285E; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; font-size: 1.05rem; }
-  .menu-page h2 { color: #01285E; border-bottom: 2px solid #C4D1E5; padding-bottom: 4px; margin: 18px 0 6px; font-size: 1.4rem; }
+  .menu-header h1 { margin: 0; color: #013087; font-size: 1.9rem; line-height: 1.1; }
+  .menu-header p { margin: 4px 0 0; color: #013087; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; font-size: 1.05rem; }
+  .menu-page h2 { color: #013087; border-bottom: 2px solid #C8D6F0; padding-bottom: 4px; margin: 18px 0 6px; font-size: 1.4rem; }
   .menu-page table { width: 100%; border-collapse: collapse; margin: 0 0 18px; }
   .menu-page table:last-of-type { margin-bottom: 0; }
-  .menu-page td { padding: 7px 10px; border-bottom: 1px solid #E5EAF2; font-size: 1rem; font-weight: 700; color: #01285E; }
+  .menu-page td { padding: 7px 10px; border-bottom: 1px solid #E5EAF2; font-size: 1rem; font-weight: 700; color: #013087; }
   .menu-page td:last-child { text-align: right; width: 90px; white-space: nowrap; font-variant-numeric: tabular-nums; }
   @media print {
     @page { size: A4 portrait; margin: 12mm; }
