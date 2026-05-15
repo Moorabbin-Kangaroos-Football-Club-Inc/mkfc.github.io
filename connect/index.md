@@ -205,7 +205,7 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
   body {
     background: #fff !important;
     color: #000;
-    font-size: 11pt;
+    font-size: 9pt;
   }
 
   .page-content {
@@ -224,9 +224,23 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
     padding: 0 !important;
   }
 
+  .connect-intro {
+    margin-bottom: 0.5rem;
+  }
+
+  .connect-intro h1 {
+    font-size: 18pt;
+    margin: 0 0 0.2rem;
+  }
+
   .connect-intro p,
   .connect-card-url {
     color: #333 !important;
+  }
+
+  .connect-intro p {
+    font-size: 9pt;
+    margin: 0 auto;
   }
 
   .connect-website {
@@ -235,30 +249,88 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
     print-color-adjust: exact;
     page-break-inside: avoid;
     break-inside: avoid;
+    padding: 0.9rem 1.2rem;
+    margin-bottom: 0.9rem;
+    gap: 1.2rem;
+  }
+
+  .connect-website-info h2 {
+    font-size: 15pt;
+    margin: 0 0 0.2rem;
+  }
+
+  .connect-website-info .connect-website-url {
+    font-size: 12pt;
+    margin: 0 0 0.3rem;
   }
 
   .connect-website-info .connect-website-blurb {
     color: #fff !important;
+    font-size: 9pt;
+  }
+
+  .connect-website-qr {
+    width: 110px;
+    height: 110px;
+    padding: 6px;
+  }
+
+  .connect-section-heading {
+    font-size: 12pt;
+    margin: 0 0 0.6rem;
+    padding-bottom: 0.25rem;
   }
 
   .connect-card {
     page-break-inside: avoid;
     break-inside: avoid;
     border: 1px solid #888;
+    padding: 0.4rem 0.3rem;
+  }
+
+  .connect-card-platform {
+    margin-bottom: 0.25rem;
+    gap: 0.3rem;
+  }
+
+  .connect-card-platform h3 {
+    font-size: 9pt;
+  }
+
+  .connect-card-platform img,
+  .connect-card-platform svg {
+    width: 14px !important;
+    height: 14px !important;
   }
 
   .connect-grid {
     grid-template-columns: repeat(4, 1fr);
-    gap: 0.6rem;
+    gap: 0.4rem;
   }
 
   .connect-card-qr {
-    width: 130px;
-    height: 130px;
+    width: 95px;
+    height: 95px;
+    margin: 0.15rem auto 0.3rem;
+    padding: 3px;
+  }
+
+  .connect-card-handle {
+    font-size: 8pt;
+  }
+
+  .connect-card-url {
+    font-size: 6.5pt;
+    margin-top: 0.1rem;
+  }
+
+  .connect-footer-note {
+    font-size: 7.5pt;
+    margin-top: 0.8rem;
   }
 
   @page {
-    margin: 12mm;
+    margin: 10mm;
     size: A4;
   }
 
@@ -364,7 +436,7 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
 
   <div class="connect-card">
     <div class="connect-card-platform">
-      <img src="https://cdn.simpleicons.org/linkedin/013087" alt="" loading="lazy">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#013087" aria-hidden="true" style="width:22px;height:22px;display:block;"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.852 3.37-1.852 3.601 0 4.267 2.37 4.267 5.455v6.288zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.063 2.063 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
       <h3>LinkedIn</h3>
     </div>
     <div class="connect-card-qr" data-qr="https://www.linkedin.com/company/moorabbinkangas"></div>
