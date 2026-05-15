@@ -40,6 +40,7 @@ position: Midfielder
 team: seniors
 photo: /assets/players/john-smith.jpg
 joined: 2021
+description: "Player profile for John Smith — Midfielder, #23, Moorabbin Kangaroos Seniors."
 ---
 
 A short bio paragraph about John — where he grew up, how he came to
@@ -65,6 +66,7 @@ What John does outside footy — work, study, family, hobbies.
 | `team`     | yes      | Either `seniors` or `reserves` (lowercase, exact).   |
 | `photo`    | no       | Path to a player photo (see step 4). Falls back to the club logo if omitted. |
 | `joined`   | no       | Year they joined MKFC.                               |
+| `description` | no    | One-line summary used as the `<meta name="description">` and social-share preview. Keep under 160 characters. |
 
 ## 4. Add the photo (optional)
 

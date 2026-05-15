@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Wikipedia Edit 2 — Legacy and successor club section"
 target_article: https://en.wikipedia.org/wiki/Moorabbin_Football_Club
 edit_type: new section insertion

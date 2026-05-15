@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Wikipedia Edit 1 — Hatnote update on Moorabbin Football Club"
 target_article: https://en.wikipedia.org/wiki/Moorabbin_Football_Club
 edit_type: hatnote replacement

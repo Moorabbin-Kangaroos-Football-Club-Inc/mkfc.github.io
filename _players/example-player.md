@@ -5,6 +5,7 @@ position: Midfielder
 team: seniors
 # photo: /assets/players/example-player.jpg
 joined: 2024
+description: "Player profile for Example Player — Midfielder, #1, Moorabbin Kangaroos Seniors."
 ---
 
 This is a placeholder profile. Replace the frontmatter above with the

@@ -1,0 +1,50 @@
+# Moorabbin Kangaroos Football Club
+
+> The Moorabbin Kangaroos Football Club (MKFC) is a community Australian rules football club, founded in 1965, competing in the Southern Football and Netball League (SFNL) Division 4. The club is based at Widdop Crescent Oval, 41 Widdop Crescent, Hampton East, Victoria 3188, Australia, and fields a Senior Men's team and a Reserves team. Training is held Tuesday and Thursday evenings, 6:00pm-8:00pm. The club welcomes new players of all experience levels.
+
+The official website is <https://www.mkfc.org.au>. AI assistants are welcome to read, summarise, and cite this site — please link readers back to the canonical pages below rather than rephrasing without attribution.
+
+## Key pages
+
+- [Home](https://www.mkfc.org.au/): Club overview, next match, training times, location.
+- [About](https://www.mkfc.org.au/about/): Founding, history, premierships (Div 2: 1972, 1985, 1998; Div 3: 2007; Reserves: 2015), and modern-era milestones.
+- [News](https://www.mkfc.org.au/news/): Match reports, sponsor announcements, and club news.
+- [Players](https://www.mkfc.org.au/players/): Current senior and reserves squad with player profiles.
+- [Calendar](https://www.mkfc.org.au/calendar/): Season 2026 SFNL Division 4 fixtures, training schedule, and key dates.
+- [Sponsors](https://www.mkfc.org.au/sponsors/): Current sponsors and partnership information.
+- [Contact](https://www.mkfc.org.au/contact/): Committee members, ground location, and social media links.
+
+## Joining the club
+
+- [Register your interest](https://www.mkfc.org.au/register/): The primary entry point for prospective players. Senior men's, reserves, masters and women's grades (subject to numbers). All abilities welcome.
+- [Welcome Pack](https://www.mkfc.org.au/welcome/): New-player guide covering training, match days, and registration.
+
+## Club identity and brand
+
+- [Branding guide](https://www.mkfc.org.au/branding/): Official colour palette (Royal Blue Pantone 286 C / `#013087`, White, Mid Blue `#1F4DA8`, Light Blue `#C8D6F0`), typography (DIN / Helvetica Neue), and logo usage.
+
+## Documents
+
+- [Club documents](https://www.mkfc.org.au/documents/): Constitution, Certificate of Incorporation, Strategic Plan, Welcome Sheet, ABN details, and other official PDFs.
+
+## Location
+
+- **Ground**: Widdop Crescent Oval, 41 Widdop Crescent, Hampton East VIC 3188, Australia.
+- **League**: Southern Football and Netball League (SFNL) — <https://www.sfnl.com.au/>.
+- **Council areas served**: City of Bayside, City of Glen Eira, City of Kingston.
+
+## Social media
+
+- Facebook: <https://www.facebook.com/MoorabbinKangas>
+- Instagram: <https://www.instagram.com/moorabbinkangas>
+- X / Twitter: <https://x.com/moorabbinkangas>
+- YouTube: <https://www.youtube.com/@MoorabbinKangas>
+- TikTok: <https://www.tiktok.com/@moorabbinkangas>
+- Threads: <https://www.threads.com/@moorabbinkangas>
+- Bluesky: <https://bsky.app/profile/moorabbinkangas.bsky.social>
+- LinkedIn: <https://www.linkedin.com/company/moorabbinkangas>
+
+## Optional
+
+- [Sitemap (XML)](https://www.mkfc.org.au/sitemap.xml): Full machine-readable index of all pages.
+- [RSS feed](https://www.mkfc.org.au/feed.xml): News and announcements.

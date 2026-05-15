@@ -1,6 +1,7 @@
 ---
 layout: default
 title: History
+description: "History of the Moorabbin Kangaroos Football Club from its 1965 founding — premierships, milestones, and the move to Widdop Crescent Oval."
 ---
 
 # Club History

@@ -1,4 +1,5 @@
 ---
+published: false
 title: "Wikipedia Edit 3 — Proposed new article: Moorabbin Kangaroos Football Club"
 target_article: https://en.wikipedia.org/wiki/Moorabbin_Kangaroos_Football_Club (to be created)
 edit_type: new article via Articles for Creation
