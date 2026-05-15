@@ -10,6 +10,16 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
   max-width: 960px;
   margin: 0 auto;
   padding-bottom: 2rem;
+  font-family: "DIN", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.connect-page h1,
+.connect-page h2,
+.connect-page h3 {
+  font-family: "DIN Condensed", "Helvetica Neue Condensed", "HelveticaNeue-CondensedBold", "Arial Narrow", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  font-weight: 700;
 }
 
 .connect-intro {
@@ -186,6 +196,19 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
   line-height: 1.3;
 }
 
+.connect-card-url a,
+.connect-card-url a:visited,
+.connect-website-url a,
+.connect-website-url a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+.connect-card-url a:hover,
+.connect-website-url a:hover {
+  text-decoration: underline;
+}
+
 .connect-footer-note {
   text-align: center;
   color: #777;
@@ -354,7 +377,7 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
 <div class="connect-website">
   <div class="connect-website-info">
     <h2>Visit our Website</h2>
-    <p class="connect-website-url">www.mkfc.org.au</p>
+    <p class="connect-website-url"><a href="https://www.mkfc.org.au">www.mkfc.org.au</a></p>
     <p class="connect-website-blurb">Fixtures, news, players, history, sponsors — everything Moorabbin Kangaroos.</p>
   </div>
   <div class="connect-website-qr" data-qr="https://www.mkfc.org.au"></div>
@@ -371,7 +394,7 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
     </div>
     <div class="connect-card-qr" data-qr="https://www.facebook.com/MoorabbinKangas"></div>
     <div class="connect-card-handle">MoorabbinKangas</div>
-    <div class="connect-card-url">facebook.com/MoorabbinKangas</div>
+    <div class="connect-card-url"><a href="https://www.facebook.com/MoorabbinKangas">facebook.com/MoorabbinKangas</a></div>
   </div>
 
   <div class="connect-card">
@@ -381,7 +404,7 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
     </div>
     <div class="connect-card-qr" data-qr="https://www.instagram.com/moorabbinkangas"></div>
     <div class="connect-card-handle">@moorabbinkangas</div>
-    <div class="connect-card-url">instagram.com/moorabbinkangas</div>
+    <div class="connect-card-url"><a href="https://www.instagram.com/moorabbinkangas">instagram.com/moorabbinkangas</a></div>
   </div>
 
   <div class="connect-card">
@@ -391,7 +414,7 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
     </div>
     <div class="connect-card-qr" data-qr="https://x.com/moorabbinkangas"></div>
     <div class="connect-card-handle">@moorabbinkangas</div>
-    <div class="connect-card-url">x.com/moorabbinkangas</div>
+    <div class="connect-card-url"><a href="https://x.com/moorabbinkangas">x.com/moorabbinkangas</a></div>
   </div>
 
   <div class="connect-card">
@@ -401,7 +424,7 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
     </div>
     <div class="connect-card-qr" data-qr="https://www.youtube.com/@MoorabbinKangas"></div>
     <div class="connect-card-handle">@MoorabbinKangas</div>
-    <div class="connect-card-url">youtube.com/@MoorabbinKangas</div>
+    <div class="connect-card-url"><a href="https://www.youtube.com/@MoorabbinKangas">youtube.com/@MoorabbinKangas</a></div>
   </div>
 
   <div class="connect-card">
@@ -411,7 +434,7 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
     </div>
     <div class="connect-card-qr" data-qr="https://www.tiktok.com/@moorabbinkangas"></div>
     <div class="connect-card-handle">@moorabbinkangas</div>
-    <div class="connect-card-url">tiktok.com/@moorabbinkangas</div>
+    <div class="connect-card-url"><a href="https://www.tiktok.com/@moorabbinkangas">tiktok.com/@moorabbinkangas</a></div>
   </div>
 
   <div class="connect-card">
@@ -421,7 +444,7 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
     </div>
     <div class="connect-card-qr" data-qr="https://www.threads.com/@moorabbinkangas"></div>
     <div class="connect-card-handle">@moorabbinkangas</div>
-    <div class="connect-card-url">threads.com/@moorabbinkangas</div>
+    <div class="connect-card-url"><a href="https://www.threads.com/@moorabbinkangas">threads.com/@moorabbinkangas</a></div>
   </div>
 
   <div class="connect-card">
@@ -431,7 +454,7 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
     </div>
     <div class="connect-card-qr" data-qr="https://bsky.app/profile/moorabbinkangas.bsky.social"></div>
     <div class="connect-card-handle">@moorabbinkangas.bsky.social</div>
-    <div class="connect-card-url">bsky.app/profile/moorabbinkangas.bsky.social</div>
+    <div class="connect-card-url"><a href="https://bsky.app/profile/moorabbinkangas.bsky.social">bsky.app/profile/moorabbinkangas.bsky.social</a></div>
   </div>
 
   <div class="connect-card">
@@ -441,7 +464,7 @@ description: "Scan to follow Moorabbin Kangaroos FC online — website and all s
     </div>
     <div class="connect-card-qr" data-qr="https://www.linkedin.com/company/moorabbinkangas"></div>
     <div class="connect-card-handle">moorabbinkangas</div>
-    <div class="connect-card-url">linkedin.com/company/moorabbinkangas</div>
+    <div class="connect-card-url"><a href="https://www.linkedin.com/company/moorabbinkangas">linkedin.com/company/moorabbinkangas</a></div>
   </div>
 
 </div>
