@@ -91,7 +91,9 @@
       "mcp__claude_ai_Canva__perform-editing-operations",
       "mcp__claude_ai_Canva__commit-editing-transaction",
       "Bash(curl -sLo mkfc-cap-wordmark.png 'https://export-download.canva.com/y-oHs/DAHJWNy-oHs/-1/0/0001-5286602918121376763.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260511%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260511T024118Z&X-Amz-Expires=29316&X-Amz-Signature=7da61d782f8ab2c60bb9329dc4e1d296f7997586b92c6b2d304b4dea94d4f948&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Mon%2C%2011%20May%202026%2010%3A49%3A54%20GMT')",
-      "Bash(curl -sLo mkfc-cap-wordmark.pdf 'https://export-download.canva.com/y-oHs/DAHJWNy-oHs/-1/0-2748824531049258855.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260511%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260511T001946Z&X-Amz-Expires=34753&X-Amz-Signature=17676d5f1c52be9928420e442f43562967849b1f23eeea83d48519a8440e6a3c&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Mon%2C%2011%20May%202026%2009%3A58%3A59%20GMT')"
+      "Bash(curl -sLo mkfc-cap-wordmark.pdf 'https://export-download.canva.com/y-oHs/DAHJWNy-oHs/-1/0-2748824531049258855.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUH5AO7UJ26%2F20260511%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260511T001946Z&X-Amz-Expires=34753&X-Amz-Signature=17676d5f1c52be9928420e442f43562967849b1f23eeea83d48519a8440e6a3c&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Mon%2C%2011%20May%202026%2009%3A58%3A59%20GMT')",
+      "Bash(where pandoc *)",
+      "PowerShell(Get-Command *)"
     ]
   }
 }
